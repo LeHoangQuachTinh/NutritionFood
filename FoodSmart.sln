@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "FoodSmart", "FoodSmart\FoodSmart.dwproj", "{12DCF55A-644F-4475-B744-D70BB0A762D8}"
+EndProject
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "NutritionFoodETL", "NutritionFoodETL\NutritionFoodETL.dtproj", "{367FDF31-F000-4AB0-9970-25E353866212}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12DCF55A-644F-4475-B744-D70BB0A762D8}.Development|Default.ActiveCfg = Development
+		{12DCF55A-644F-4475-B744-D70BB0A762D8}.Development|Default.Build.0 = Development
+		{12DCF55A-644F-4475-B744-D70BB0A762D8}.Development|Default.Deploy.0 = Development
+		{367FDF31-F000-4AB0-9970-25E353866212}.Development|Default.ActiveCfg = Development
+		{367FDF31-F000-4AB0-9970-25E353866212}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {081AFCE3-53A1-4F3B-96F7-EA4AD94D973A}
+	EndGlobalSection
+EndGlobal

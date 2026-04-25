@@ -1,0 +1,6 @@
+*.csv
+.vs/
+bin/
+obj/
+RAW_interactions.csv
+RAW_recipes.csv
