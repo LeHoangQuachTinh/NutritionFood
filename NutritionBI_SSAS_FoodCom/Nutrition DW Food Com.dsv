@@ -1,0 +1,426 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="09ad00a7-5878-4f41-8570-4d938615cb4c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Nutrition DW Food Com</ID>
+  <Name>Nutrition DW Food Com</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="26" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-16047" scrolltop="753" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="20585" y="13772" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="0100000090019e330100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Recipes" left="2493" top="-1235" logicalid="9" controlid="1" masterid="0" hint1="0" hint2="0" width="3056" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000f00b000088130000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Dim_Recipes" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Time" left="5469" top="7790" logicalid="10" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="4220" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00007c100000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Dim_Time" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Users" left="26" top="14800" logicalid="11" controlid="3" masterid="0" hint1="0" hint2="0" width="3016" height="3876" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000c80b0000240f0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Dim_Users" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Fact_RecipeInteraction" left="0" top="7400" logicalid="12" controlid="4" masterid="0" hint1="0" hint2="0" width="3069" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000fd0b000088130000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Fact_RecipeInteraction" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="1135" top="12100" logicalid="13" controlid="5" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_Fact_User]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="4" sourceattachpoint="4" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="1534" y="14800" />
+                    <point x="1534" y="12400" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="2769" top="9501" logicalid="14" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_Fact_Time]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="4" sourceattachpoint="16" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="5469" y="9900" />
+                    <point x="3069" y="9900" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="2334" top="3266" logicalid="15" controlid="7" masterid="0" hint1="0" hint2="0" width="987" height="4434" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_Fact_Recipe]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="4" sourceattachpoint="1" destattachpoint="8" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="2921" y="3765" />
+                    <point x="2921" y="5582" />
+                    <point x="2634" y="5582" />
+                    <point x="2634" y="7400" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Mining_LogisticReg" left="-4124" top="4444" logicalid="24" controlid="16" masterid="0" hint1="0" hint2="0" width="3000" height="3811" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000e30e0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Mining_LogisticReg" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Mining_Recipes" left="-4124" top="13134" logicalid="25" controlid="17" masterid="0" hint1="0" hint2="0" width="3000" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000088130000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Mining_Recipes" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+              </dds>
+</DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>-16047</DiagramViewPortLeft>
+            <DiagramViewPortTop>753</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>75</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>DS_FoodCom</DataSourceID>
+  <Schema>
+    <xs:schema id="Nutrition_x0020_DW_x0020_Food_x0020_Com" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Nutrition_x0020_DW_x0020_Food_x0020_Com" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="dc58ddf9-75b3-4545-a57d-65a0dd0077af">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_Dim_Recipes" msprop:design-time-name="717a1d81-bfa2-4517-9077-d7d0cb94989d" msprop:FriendlyName="Dim_Recipes" msprop:DbSchemaName="dbo" msprop:DbTableName="Dim_Recipes" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="RecipeKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="30d5eb25-8210-47ce-a05b-af91b4b9f779" msprop:DbColumnName="RecipeKey" msprop:FriendlyName="RecipeKey" type="xs:int" />
+                  <xs:element name="RecipeID" msprop:design-time-name="b88d698f-70f6-45b1-aa53-7dcf1939c59b" msprop:DbColumnName="RecipeID" msprop:FriendlyName="RecipeID" type="xs:int" />
+                  <xs:element name="RecipeName" msprop:design-time-name="f2584755-8f74-42bf-8bf6-5684061e79dc" msprop:DbColumnName="RecipeName" msprop:FriendlyName="RecipeName">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="500" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Minutes" msprop:design-time-name="363d812d-f513-4785-ab91-869075e98aa2" msprop:DbColumnName="Minutes" msprop:FriendlyName="Minutes" type="xs:int" minOccurs="0" />
+                  <xs:element name="ContributorID" msprop:design-time-name="fb995694-f2d8-4ad3-b642-875de9ab90d7" msprop:DbColumnName="ContributorID" msprop:FriendlyName="ContributorID" type="xs:int" minOccurs="0" />
+                  <xs:element name="SubmittedDate" msprop:design-time-name="82ee98aa-3dab-4129-aea9-b0484f80f06d" msprop:DbColumnName="SubmittedDate" msprop:FriendlyName="SubmittedDate" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="Tags_Raw" msprop:design-time-name="e4ce4cb7-2178-4c70-9b3f-58d7c19f00a7" msprop:DbColumnName="Tags_Raw" msprop:FriendlyName="Tags_Raw" type="xs:string" minOccurs="0" />
+                  <xs:element name="NSteps" msprop:design-time-name="a29a7281-6f79-4915-a989-8662bb263a14" msprop:DbColumnName="NSteps" msprop:FriendlyName="NSteps" type="xs:int" minOccurs="0" />
+                  <xs:element name="NIngredients" msprop:design-time-name="46fedda1-dce6-4e3b-b3e2-8149f7e37879" msprop:DbColumnName="NIngredients" msprop:FriendlyName="NIngredients" type="xs:int" minOccurs="0" />
+                  <xs:element name="Description" msprop:design-time-name="178d67ce-40c4-4ac8-8f69-c1a939c8d38a" msprop:DbColumnName="Description" msprop:FriendlyName="Description" type="xs:string" minOccurs="0" />
+                  <xs:element name="Ingredients_Raw" msprop:design-time-name="01e1db0b-6e60-42aa-8d8b-d0fb2b223a32" msprop:DbColumnName="Ingredients_Raw" msprop:FriendlyName="Ingredients_Raw" type="xs:string" minOccurs="0" />
+                  <xs:element name="Calories" msprop:design-time-name="7f6aa554-0f5d-411e-8d83-ae8bc84ad29c" msprop:DbColumnName="Calories" msprop:FriendlyName="Calories" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="TotalFat_PDV" msprop:design-time-name="23151af5-bf88-48dd-a09b-847a08543edb" msprop:DbColumnName="TotalFat_PDV" msprop:FriendlyName="TotalFat_PDV" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Sugar_PDV" msprop:design-time-name="296bd9ed-9a2c-49dd-9449-185246dc1ae4" msprop:DbColumnName="Sugar_PDV" msprop:FriendlyName="Sugar_PDV" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Sodium_PDV" msprop:design-time-name="53b84168-5f5e-42ab-9bea-bf7e5b810e4d" msprop:DbColumnName="Sodium_PDV" msprop:FriendlyName="Sodium_PDV" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Protein_PDV" msprop:design-time-name="badbba7c-6080-4734-b7c4-96ae02e5e69a" msprop:DbColumnName="Protein_PDV" msprop:FriendlyName="Protein_PDV" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="SatFat_PDV" msprop:design-time-name="15b778f1-32e9-4099-af12-1d1c7e28eeee" msprop:DbColumnName="SatFat_PDV" msprop:FriendlyName="SatFat_PDV" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Carbs_PDV" msprop:design-time-name="7cf6c722-0755-4b3c-9da9-0c7abc26c61c" msprop:DbColumnName="Carbs_PDV" msprop:FriendlyName="Carbs_PDV" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="TotalFat_g" msdata:ReadOnly="true" msprop:design-time-name="412e09a6-7bdd-4e7f-8192-1374fa760606" msprop:DbColumnName="TotalFat_g" msprop:FriendlyName="TotalFat_g" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Sugar_g" msdata:ReadOnly="true" msprop:design-time-name="0b6fc3bf-48c0-47d0-975e-0d3a24b4fce3" msprop:DbColumnName="Sugar_g" msprop:FriendlyName="Sugar_g" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Sodium_mg" msdata:ReadOnly="true" msprop:design-time-name="f5c6138d-5bb6-45f5-847c-4d17eaff96df" msprop:DbColumnName="Sodium_mg" msprop:FriendlyName="Sodium_mg" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Protein_g" msdata:ReadOnly="true" msprop:design-time-name="7a6e7e14-91a5-47c7-9a1b-756053edeb78" msprop:DbColumnName="Protein_g" msprop:FriendlyName="Protein_g" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="SatFat_g" msdata:ReadOnly="true" msprop:design-time-name="b6c73494-85e9-4021-b71f-1f8828d63f72" msprop:DbColumnName="SatFat_g" msprop:FriendlyName="SatFat_g" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Carbs_g" msdata:ReadOnly="true" msprop:design-time-name="11b8666b-a1ec-4bc6-aa23-7365817e2d04" msprop:DbColumnName="Carbs_g" msprop:FriendlyName="Carbs_g" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="IsHighProtein" msdata:ReadOnly="true" msprop:design-time-name="55ebbb81-2390-47fd-b61e-759d45fc6f66" msprop:DbColumnName="IsHighProtein" msprop:FriendlyName="IsHighProtein" type="xs:int" />
+                  <xs:element name="IsLowCalorie" msdata:ReadOnly="true" msprop:design-time-name="525cbf08-bb2a-4313-9cda-b9b9dd8ebb65" msprop:DbColumnName="IsLowCalorie" msprop:FriendlyName="IsLowCalorie" type="xs:int" />
+                  <xs:element name="IsQuick" msdata:ReadOnly="true" msprop:design-time-name="fe970e3f-7a6b-4039-86c9-302b18376a2f" msprop:DbColumnName="IsQuick" msprop:FriendlyName="IsQuick" type="xs:int" />
+                  <xs:element name="IsVegetarian" msdata:ReadOnly="true" msprop:design-time-name="daebfc2e-9ced-4329-8d41-91492db5bcf3" msprop:DbColumnName="IsVegetarian" msprop:FriendlyName="IsVegetarian" type="xs:int" />
+                  <xs:element name="AvgRating" msprop:design-time-name="cfdc5fab-74c6-4e66-8701-8125af2ea2a5" msprop:DbColumnName="AvgRating" msprop:FriendlyName="AvgRating" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="RatingCount" msprop:design-time-name="562f1fc7-12cd-49cd-a508-452523b2daee" msprop:DbColumnName="RatingCount" msprop:FriendlyName="RatingCount" type="xs:int" minOccurs="0" />
+                  <xs:element name="ClusterID" msprop:design-time-name="a1fec56e-f272-4a15-b0b8-2d737b2a9013" msprop:DbColumnName="ClusterID" msprop:FriendlyName="ClusterID" type="xs:unsignedByte" minOccurs="0" />
+                  <xs:element name="ClusterLabel" msprop:design-time-name="d025d47e-cea0-4279-bff5-d4882fec9ea9" msprop:DbColumnName="ClusterLabel" msprop:FriendlyName="ClusterLabel" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="IsActive" msprop:design-time-name="e66c76ce-ee6b-4429-8756-ebd7c30a2ab0" msprop:DbColumnName="IsActive" msprop:FriendlyName="IsActive" type="xs:boolean" />
+                  <xs:element name="LoadedDate" msprop:design-time-name="511524f2-276d-4611-ae7b-2c2f259488f7" msprop:DbColumnName="LoadedDate" msprop:FriendlyName="LoadedDate" type="xs:dateTime" />
+                  <xs:element name="TimeCategory" msdata:ReadOnly="true" msprop:design-time-name="ed721b50-8277-47d6-a8c0-acc5f836bfc8" msprop:IsLogical="True" msprop:Description="" msprop:DbColumnName="TimeCategory" msprop:ComputedColumnExpression="CASE&#xD;&#xA;       WHEN Minutes &lt;= 15  THEN 'Ultra Quick (≤15m)'&#xD;&#xA;       WHEN Minutes &lt;= 30  THEN 'Quick (16-30m)'&#xD;&#xA;       WHEN Minutes &lt;= 60  THEN 'Moderate (31-60m)'&#xD;&#xA;       WHEN Minutes &lt;= 120 THEN 'Long (1-2h)'&#xD;&#xA;       ELSE 'Very Long (2h+)'&#xD;&#xA;   END">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="18" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="NutritionScore" msdata:ReadOnly="true" msprop:design-time-name="c79f1413-3fbb-4fe8-826b-13a278ee1123" msprop:IsLogical="True" msprop:Description="" msprop:DbColumnName="NutritionScore" msprop:ComputedColumnExpression="CASE&#xD;&#xA;       WHEN Calories IS NULL THEN 0&#xD;&#xA;       ELSE&#xD;&#xA;           (CASE WHEN Protein_PDV BETWEEN 10 AND 40 THEN 30 ELSE 0 END) +&#xD;&#xA;           (CASE WHEN Carbs_PDV   BETWEEN 20 AND 60 THEN 30 ELSE 0 END) +&#xD;&#xA;           (CASE WHEN TotalFat_PDV &lt; 30              THEN 25 ELSE 0 END) +&#xD;&#xA;           (CASE WHEN Calories &lt; 600                 THEN 15 ELSE 0 END)&#xD;&#xA;   END" type="xs:int" minOccurs="0" />
+                  <xs:element name="CalorieCategory" msdata:ReadOnly="true" msprop:design-time-name="e47917c9-3792-479a-9833-3c612ebacfde" msprop:IsLogical="True" msprop:Description="" msprop:DbColumnName="CalorieCategory" msprop:ComputedColumnExpression="CASE&#xD;&#xA;    WHEN Calories &lt; 200  THEN 'Very Low (&lt;200)'&#xD;&#xA;    WHEN Calories &lt; 400  THEN 'Low (200-400)'&#xD;&#xA;    WHEN Calories &lt; 600  THEN 'Medium (400-600)'&#xD;&#xA;    WHEN Calories &lt; 800  THEN 'High (600-800)'&#xD;&#xA;    ELSE 'Very High (800+)'&#xD;&#xA;END">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="16" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Dim_Time" msprop:design-time-name="c5ffe421-f5a7-4b86-9f4d-6171c6c752b2" msprop:FriendlyName="Dim_Time" msprop:DbSchemaName="dbo" msprop:DbTableName="Dim_Time" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="TimeKey" msprop:design-time-name="4a6c6b46-19fe-4658-baf6-a40276817991" msprop:DbColumnName="TimeKey" msprop:FriendlyName="TimeKey" type="xs:int" />
+                  <xs:element name="FullDate" msprop:design-time-name="1383e262-2487-4b95-b43b-d9b3d45a6a3b" msprop:DbColumnName="FullDate" msprop:FriendlyName="FullDate" type="xs:dateTime" />
+                  <xs:element name="Day" msprop:design-time-name="2267f89b-ea95-4d47-9552-c8e9d235d3bf" msprop:DbColumnName="Day" msprop:FriendlyName="Day" type="xs:unsignedByte" />
+                  <xs:element name="Month" msprop:design-time-name="08290bf8-1190-4306-83ed-542b0a32932e" msprop:DbColumnName="Month" msprop:FriendlyName="Month" type="xs:unsignedByte" />
+                  <xs:element name="MonthName" msprop:design-time-name="96322c77-4e9e-4320-a93a-4420d38772c6" msprop:DbColumnName="MonthName" msprop:FriendlyName="MonthName">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Quarter" msprop:design-time-name="026b7ee2-d074-4ead-8635-f20cf85cc162" msprop:DbColumnName="Quarter" msprop:FriendlyName="Quarter" type="xs:unsignedByte" />
+                  <xs:element name="Year" msprop:design-time-name="09fe6b18-d939-40b8-8d8d-931a9cc3a4c6" msprop:DbColumnName="Year" msprop:FriendlyName="Year" type="xs:short" />
+                  <xs:element name="WeekDay" msprop:design-time-name="b30d6eea-40b5-401d-a7db-73b829f3b725" msprop:DbColumnName="WeekDay" msprop:FriendlyName="WeekDay" type="xs:unsignedByte" />
+                  <xs:element name="WeekDayName" msprop:design-time-name="a9485cb9-18e0-4eac-a8b5-1541423158d0" msprop:DbColumnName="WeekDayName" msprop:FriendlyName="WeekDayName">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="IsWeekend" msprop:design-time-name="668917ef-421f-4911-85f7-c331febb7afc" msprop:DbColumnName="IsWeekend" msprop:FriendlyName="IsWeekend" type="xs:boolean" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Dim_Users" msprop:design-time-name="456bc4fb-1cee-4a3e-abb8-f930c2bf67cc" msprop:FriendlyName="Dim_Users" msprop:DbSchemaName="dbo" msprop:DbTableName="Dim_Users" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="UserKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="df38e0db-4c91-48c8-a713-538a7aafb9d7" msprop:DbColumnName="UserKey" msprop:FriendlyName="UserKey" type="xs:int" />
+                  <xs:element name="UserID" msprop:design-time-name="49421b15-2afb-433d-8b4e-1aa15019bd4e" msprop:DbColumnName="UserID" msprop:FriendlyName="UserID" type="xs:int" />
+                  <xs:element name="FirstInteractDate" msprop:design-time-name="c0b26601-87ac-4873-b619-7c693568b217" msprop:DbColumnName="FirstInteractDate" msprop:FriendlyName="FirstInteractDate" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="LastInteractDate" msprop:design-time-name="924924fe-1d18-424b-9935-34b0f75476cd" msprop:DbColumnName="LastInteractDate" msprop:FriendlyName="LastInteractDate" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="TotalReviews" msprop:design-time-name="f51d37fc-03f0-4ad6-b109-1f3e3dcd0f80" msprop:DbColumnName="TotalReviews" msprop:FriendlyName="TotalReviews" type="xs:int" minOccurs="0" />
+                  <xs:element name="AvgRatingGiven" msprop:design-time-name="dbdb7bd0-741c-4b5b-9cb9-8c60479a5835" msprop:DbColumnName="AvgRatingGiven" msprop:FriendlyName="AvgRatingGiven" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ActiveYears" msdata:ReadOnly="true" msprop:design-time-name="cbd41bc2-0038-4674-9fdd-811f70894eac" msprop:DbColumnName="ActiveYears" msprop:FriendlyName="ActiveYears" type="xs:int" minOccurs="0" />
+                  <xs:element name="UserSegment" msprop:design-time-name="0716f91c-9e64-4b8e-959f-c2237a0066d5" msprop:DbColumnName="UserSegment" msprop:FriendlyName="UserSegment" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="LoadedDate" msprop:design-time-name="46f824bf-f79e-4790-98d9-b6e485ced13d" msprop:DbColumnName="LoadedDate" msprop:FriendlyName="LoadedDate" type="xs:dateTime" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Fact_RecipeInteraction" msprop:design-time-name="13186160-1677-4e65-a7f0-e824f7bbb2bb" msprop:FriendlyName="Fact_RecipeInteraction" msprop:DbSchemaName="dbo" msprop:DbTableName="Fact_RecipeInteraction" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="InteractionID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="2b2fed6b-33aa-4004-bdac-ff36d6de8f67" msprop:DbColumnName="InteractionID" msprop:FriendlyName="InteractionID" type="xs:long" />
+                  <xs:element name="RecipeKey" msprop:design-time-name="7f0cd555-313b-4584-b007-0018b4e29dcf" msprop:DbColumnName="RecipeKey" msprop:FriendlyName="RecipeKey" type="xs:int" />
+                  <xs:element name="UserKey" msprop:design-time-name="7a6c1d08-96ca-41bf-95a6-c5906f59d86c" msprop:DbColumnName="UserKey" msprop:FriendlyName="UserKey" type="xs:int" />
+                  <xs:element name="TimeKey" msprop:design-time-name="0a215abf-3ce4-46a4-b125-aa70abb1be81" msprop:DbColumnName="TimeKey" msprop:FriendlyName="TimeKey" type="xs:int" />
+                  <xs:element name="Rating" msprop:design-time-name="c7e24f19-0f72-4722-a500-1d3c008107e2" msprop:DbColumnName="Rating" msprop:FriendlyName="Rating" type="xs:unsignedByte" minOccurs="0" />
+                  <xs:element name="HasReview" msprop:design-time-name="ed7a09b5-e408-4fd8-86d5-b12107560836" msprop:DbColumnName="HasReview" msprop:FriendlyName="HasReview" type="xs:boolean" />
+                  <xs:element name="ReviewLength" msprop:design-time-name="e8a18b58-3f80-472f-a079-dc8829c9a673" msprop:DbColumnName="ReviewLength" msprop:FriendlyName="ReviewLength" type="xs:int" minOccurs="0" />
+                  <xs:element name="Calories" msprop:design-time-name="01cb081c-9be8-4ea1-ac96-8bd62a913507" msprop:DbColumnName="Calories" msprop:FriendlyName="Calories" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="TotalFat_PDV" msprop:design-time-name="3ea40c9d-f9da-4d7d-89c0-6e3eb690e3c6" msprop:DbColumnName="TotalFat_PDV" msprop:FriendlyName="TotalFat_PDV" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Sugar_PDV" msprop:design-time-name="9f0af42e-b62b-45fd-9a31-e9acb233e92e" msprop:DbColumnName="Sugar_PDV" msprop:FriendlyName="Sugar_PDV" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Sodium_PDV" msprop:design-time-name="a5d05ed6-d2ec-4aa2-81b7-3bf5024aaf0c" msprop:DbColumnName="Sodium_PDV" msprop:FriendlyName="Sodium_PDV" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Protein_PDV" msprop:design-time-name="649e564a-b56b-407d-ab75-cb5068ea8afd" msprop:DbColumnName="Protein_PDV" msprop:FriendlyName="Protein_PDV" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="SatFat_PDV" msprop:design-time-name="f54e02b3-8179-48e9-b78d-a4d75fd0f577" msprop:DbColumnName="SatFat_PDV" msprop:FriendlyName="SatFat_PDV" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Carbs_PDV" msprop:design-time-name="8d93c8b9-a1bf-46d2-9a2e-064a6be601ec" msprop:DbColumnName="Carbs_PDV" msprop:FriendlyName="Carbs_PDV" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Protein_g" msdata:ReadOnly="true" msprop:design-time-name="bcb2dbfb-bf65-41b1-9e85-fd0cd4fb1a85" msprop:DbColumnName="Protein_g" msprop:FriendlyName="Protein_g" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Carbs_g" msdata:ReadOnly="true" msprop:design-time-name="54020696-8d81-4925-8bbc-578b4ce53e30" msprop:DbColumnName="Carbs_g" msprop:FriendlyName="Carbs_g" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="TotalFat_g" msdata:ReadOnly="true" msprop:design-time-name="546a3264-5a97-4726-b8fe-0f607c553ec4" msprop:DbColumnName="TotalFat_g" msprop:FriendlyName="TotalFat_g" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ProteinRatio_Pct" msdata:ReadOnly="true" msprop:design-time-name="5e48b509-88a7-41d5-8c17-8ff70cea3dcd" msprop:DbColumnName="ProteinRatio_Pct" msprop:FriendlyName="ProteinRatio_Pct" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="CarbRatio_Pct" msdata:ReadOnly="true" msprop:design-time-name="1ef1b526-e452-4123-ae55-5902b1bd6b0b" msprop:DbColumnName="CarbRatio_Pct" msprop:FriendlyName="CarbRatio_Pct" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="FatRatio_Pct" msdata:ReadOnly="true" msprop:design-time-name="3ae6333a-84db-467e-a3b3-e2ddd0d9266a" msprop:DbColumnName="FatRatio_Pct" msprop:FriendlyName="FatRatio_Pct" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="LoadedDate" msprop:design-time-name="6e6fc57b-85ce-48e9-8513-0848bf98b2a1" msprop:DbColumnName="LoadedDate" msprop:FriendlyName="LoadedDate" type="xs:dateTime" />
+                  <xs:element name="RatingCategory" msdata:ReadOnly="true" msprop:design-time-name="2739c62c-3673-43cf-a88e-462874c93419" msprop:IsLogical="True" msprop:Description="" msprop:DbColumnName="RatingCategory" msprop:ComputedColumnExpression="CASE&#xD;&#xA;    WHEN Rating = 5 THEN 'Excellent (5★)'&#xD;&#xA;    WHEN Rating = 4 THEN 'Good (4★)'&#xD;&#xA;    WHEN Rating = 3 THEN 'Average (3★)'&#xD;&#xA;    WHEN Rating IN (1,2) THEN 'Poor (1-2★)'&#xD;&#xA;    ELSE 'Unrated'&#xD;&#xA;END">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="14" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Mining_LogisticReg" msprop:design-time-name="77217aa4-5dd2-44b9-912a-b39b725b3aff" msprop:DbTableName="Mining_LogisticReg" msprop:FriendlyName="Mining_LogisticReg" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="RecipeID" msprop:design-time-name="9b9549fb-a0df-4f34-beae-fc05a5550c10" msprop:DbColumnName="RecipeID" msprop:FriendlyName="RecipeID" type="xs:int" />
+                  <xs:element name="Calories" msprop:design-time-name="a3900f62-aaac-4809-bc8c-1d883dfdc74d" msprop:DbColumnName="Calories" msprop:FriendlyName="Calories" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Protein_PDV" msprop:design-time-name="1bbcc888-8827-4ef2-a946-59c6e2bea48f" msprop:DbColumnName="Protein_PDV" msprop:FriendlyName="Protein_PDV" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Carbs_PDV" msprop:design-time-name="f923c02c-f233-437c-8aa7-1bbe3c00f70f" msprop:DbColumnName="Carbs_PDV" msprop:FriendlyName="Carbs_PDV" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="TotalFat_PDV" msprop:design-time-name="10e47aa3-a06c-48f6-bd5a-06288015208e" msprop:DbColumnName="TotalFat_PDV" msprop:FriendlyName="TotalFat_PDV" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Sugar_PDV" msprop:design-time-name="86bca439-0f9d-4ddd-ae1e-3bf0031c332a" msprop:DbColumnName="Sugar_PDV" msprop:FriendlyName="Sugar_PDV" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Sodium_PDV" msprop:design-time-name="3377690a-9bfa-48c1-8944-4dc0a0765475" msprop:DbColumnName="Sodium_PDV" msprop:FriendlyName="Sodium_PDV" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Minutes" msprop:design-time-name="87d95800-29c0-442e-907f-4c75c1763cc1" msprop:DbColumnName="Minutes" msprop:FriendlyName="Minutes" type="xs:int" minOccurs="0" />
+                  <xs:element name="IsHealthy" msprop:design-time-name="f6225eeb-379a-4ea9-9386-3c2c56fa5484" msprop:DbColumnName="IsHealthy" msprop:FriendlyName="IsHealthy" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Mining_Recipes" msprop:design-time-name="2e12299b-6d75-44f9-93ee-9a9b5557fd6b" msprop:DbTableName="Mining_Recipes" msprop:FriendlyName="Mining_Recipes" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="RecipeID" msprop:design-time-name="e797147f-fab2-4b8e-9bc1-cbeafac54eed" msprop:DbColumnName="RecipeID" msprop:FriendlyName="RecipeID" type="xs:int" />
+                  <xs:element name="RecipeName" msprop:design-time-name="18c5c514-c2f5-401a-a17f-d6d0158b62d8" msprop:DbColumnName="RecipeName" msprop:FriendlyName="RecipeName">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="500" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Minutes" msprop:design-time-name="cb9a3551-8d8b-47a7-a9b8-1799f89bde54" msprop:DbColumnName="Minutes" msprop:FriendlyName="Minutes" type="xs:int" minOccurs="0" />
+                  <xs:element name="NSteps" msprop:design-time-name="c0ba03f2-33c8-4c2d-aa9e-26d3b8edf7b3" msprop:DbColumnName="NSteps" msprop:FriendlyName="NSteps" type="xs:int" minOccurs="0" />
+                  <xs:element name="NIngredients" msprop:design-time-name="753c541f-36d1-4fa4-8c5b-518617173701" msprop:DbColumnName="NIngredients" msprop:FriendlyName="NIngredients" type="xs:int" minOccurs="0" />
+                  <xs:element name="Calories" msprop:design-time-name="16a65984-03ab-4590-9c26-4208220ced2f" msprop:DbColumnName="Calories" msprop:FriendlyName="Calories" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="TotalFat_PDV" msprop:design-time-name="1cd3ea93-9507-41ac-8c6c-fa00ed8133ea" msprop:DbColumnName="TotalFat_PDV" msprop:FriendlyName="TotalFat_PDV" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Sugar_PDV" msprop:design-time-name="c3ea462d-b27e-4747-8918-ecff9d5f10b6" msprop:DbColumnName="Sugar_PDV" msprop:FriendlyName="Sugar_PDV" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Sodium_PDV" msprop:design-time-name="3ce248d2-fe6c-4667-83db-061a4ed850a0" msprop:DbColumnName="Sodium_PDV" msprop:FriendlyName="Sodium_PDV" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Protein_PDV" msprop:design-time-name="8706edb0-d2af-4a0d-858b-62ea5354928d" msprop:DbColumnName="Protein_PDV" msprop:FriendlyName="Protein_PDV" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="SatFat_PDV" msprop:design-time-name="3bfc2384-0a79-4d20-9f73-72b8bcce371d" msprop:DbColumnName="SatFat_PDV" msprop:FriendlyName="SatFat_PDV" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Carbs_PDV" msprop:design-time-name="8f00bb3c-f3f5-49b2-bfa8-5e9e87fea54e" msprop:DbColumnName="Carbs_PDV" msprop:FriendlyName="Carbs_PDV" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Protein_g" msprop:design-time-name="fdc4167c-c11d-410f-af8f-20cbd22dfc4e" msprop:DbColumnName="Protein_g" msprop:FriendlyName="Protein_g" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Carbs_g" msprop:design-time-name="59feee04-3eb8-463a-bc79-a40a5898f679" msprop:DbColumnName="Carbs_g" msprop:FriendlyName="Carbs_g" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="TotalFat_g" msprop:design-time-name="7d6211c9-4437-4d9c-a421-ab6676fe6171" msprop:DbColumnName="TotalFat_g" msprop:FriendlyName="TotalFat_g" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Sugar_g" msprop:design-time-name="7e7019cd-4a3f-4572-8bc7-df061cda9a7e" msprop:DbColumnName="Sugar_g" msprop:FriendlyName="Sugar_g" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="RatingCategory" msprop:design-time-name="3285e17c-1c47-4ad1-8b9c-c3c12a8fe75a" msprop:DbColumnName="RatingCategory" msprop:FriendlyName="RatingCategory">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="9" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="IsHealthy" msprop:design-time-name="b21bf334-b1ba-4c15-b75a-c16f9d7a0a3a" msprop:DbColumnName="IsHealthy" msprop:FriendlyName="IsHealthy" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dim_Recipes" />
+          <xs:field xpath="RecipeKey" />
+        </xs:unique>
+        <xs:unique name="dbo_Dim_Time_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dim_Time" />
+          <xs:field xpath="TimeKey" />
+        </xs:unique>
+        <xs:unique name="dbo_Dim_Users_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dim_Users" />
+          <xs:field xpath="UserKey" />
+        </xs:unique>
+        <xs:unique name="dbo_Fact_RecipeInteraction_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Fact_RecipeInteraction" />
+          <xs:field xpath="InteractionID" />
+        </xs:unique>
+        <xs:unique name="dbo_Mining_LogisticReg_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Mining_LogisticReg" />
+          <xs:field xpath="RecipeID" />
+        </xs:unique>
+        <xs:unique name="dbo_Mining_Recipes_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Mining_Recipes" />
+          <xs:field xpath="RecipeID" />
+        </xs:unique>
+        <xs:keyref name="FK_Fact_User" refer="dbo_Dim_Users_Constraint1">
+          <xs:selector xpath=".//dbo_Fact_RecipeInteraction" />
+          <xs:field xpath="UserKey" />
+        </xs:keyref>
+        <xs:keyref name="FK_Fact_Time" refer="dbo_Dim_Time_Constraint1">
+          <xs:selector xpath=".//dbo_Fact_RecipeInteraction" />
+          <xs:field xpath="TimeKey" />
+        </xs:keyref>
+        <xs:keyref name="FK_Fact_Recipe" refer="Constraint1">
+          <xs:selector xpath=".//dbo_Fact_RecipeInteraction" />
+          <xs:field xpath="RecipeKey" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <Nutrition_x0020_DW_x0020_Food_x0020_Com xmlns="" />
+  </Schema>
+</DataSourceView>
