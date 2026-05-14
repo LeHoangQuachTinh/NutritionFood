@@ -6,44 +6,42 @@
 }
 
 <div class="row justify-content-center">
-    <div class="col-lg-10">
+    <div class="col-lg-12 col-xl-11">
         <div class="glass-card">
-            <div class="bg-success text-white text-center py-4">
-                <h2 class="fw-bold">
-                    <i class="fas fa-layer-group"></i>
-                    Phân nhóm món ăn AI
-                </h2>
+            <div class="card-header-custom">
+                <h2><i class="fas fa-layer-group me-2"></i>Phân nhóm món ăn AI</h2>
+                <p>AI tự động phân tích và xếp loại món ăn vào các nhóm dinh dưỡng</p>
             </div>
-            <div class="card-body p-5">
-                <div class="row align-items-center">
+            <div class="card-body p-4 pt-0">
+                <div class="row align-items-stretch">
                     <!-- LEFT -->
-                    <div class="col-md-5 border-end">
-                        <h4 class="text-success fw-bold mb-4">
-                            Thông số dinh dưỡng
-                        </h4>
-                        <div class="mb-4">
-                            <label class="form-label fw-semibold">Total Fat (PDV%)</label>
+                    <div class="col-md-6 pe-md-5 mb-5 mb-md-0">
+                        <div class="mb-3">
+                            <label class="form-label"><i class="fas fa-tint text-primary"></i> Total Fat (PDV%)</label>
                             <input type="number" id="fat" class="form-control" value="15">
                         </div>
-                        <div class="mb-4">
-                            <label class="form-label fw-semibold">Sugar (PDV%)</label>
+                        <div class="mb-3">
+                            <label class="form-label"><i class="fas fa-cubes text-secondary"></i> Sugar (PDV%)</label>
                             <input type="number" id="sugar" class="form-control" value="10">
                         </div>
-                        <div class="mb-4">
-                            <label class="form-label fw-semibold">Calories (kcal)</label>
+                        <div class="mb-3">
+                            <label class="form-label"><i class="fas fa-fire-alt text-warning"></i> Calories (kcal)</label>
                             <input type="number" id="cal" class="form-control" value="450">
                         </div>
-                        <button onclick="getCluster()" class="btn btn-success btn-custom w-100">
-                            <i class="fas fa-project-diagram"></i> PHÂN NHÓM AI
+                        <button onclick="getCluster()" class="btn-theme mt-2">
+                            <i class="fas fa-project-diagram me-2"></i> BẮT ĐẦU PHÂN NHÓM
                         </button>
                     </div>
 
                     <!-- RIGHT -->
-                    <div class="col-md-7 text-center">
+                    <div class="col-md-6">
                         <div class="result-box">
-                            <div id="cluEmoji" style="font-size:100px;" class="mb-3">🍽️</div>
-                            <h1 id="resCluster" class="fw-bold text-success display-5">--</h1>
-                            <p class="text-muted mt-3">AI phân tích nhóm món ăn tự nhiên</p>
+                            <div class="result-title">Nhóm được phân loại</div>
+                            <h1 id="resCluster" class="result-value">--</h1>
+                            <img src="/Content/HinhAnh/anhmonan.png" alt="Food Icon" class="result-image" id="cluImg" />
+                            <div class="result-badge">
+                                <i class="fas fa-info-circle"></i> AI phân tích nhóm món ăn tự nhiên
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -68,8 +66,7 @@
             contentType: 'application/json',
             success: function (res) {
                 if (res.success) {
-                    $('#cluEmoji').text(res.data.ClusterEmoji || '🍽️');
-                    $('#resCluster').text(res.data.ClusterLabel || 'Không xác định nhóm');
+                    $('#resCluster').text(res.data.ClusterLabel || 'Không xác định nhóm').show();
                 } else {
                     alert("Lỗi: " + (res.message || "Không xác định"));
                 }

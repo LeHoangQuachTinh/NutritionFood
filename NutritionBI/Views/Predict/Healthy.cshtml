@@ -6,52 +6,50 @@
 }
 
 <div class="row justify-content-center">
-    <div class="col-lg-10">
+    <div class="col-lg-12 col-xl-11">
         <div class="glass-card">
-            <div class="bg-danger text-white text-center py-4">
-                <h2 class="fw-bold">
-                    <i class="fas fa-heartbeat"></i>
-                    Đánh giá độ lành mạnh
-                </h2>
+            <div class="card-header-custom">
+                <h2><i class="fas fa-heartbeat text-danger me-2"></i>Đánh giá độ lành mạnh</h2>
+                <p>Hệ thống AI phân tích mức độ an toàn và lành mạnh của món ăn</p>
             </div>
-            <div class="card-body p-5">
-                <div class="row align-items-center">
+            <div class="card-body p-5 pt-0">
+                <div class="row align-items-stretch">
                     <!-- LEFT -->
-                    <div class="col-md-5 border-end">
-                        <h4 class="text-danger fw-bold mb-4">
-                            Kiểm tra dinh dưỡng
-                        </h4>
+                    <div class="col-md-6 pe-md-5 mb-5 mb-md-0">
                         <div class="mb-4">
-                            <label class="form-label fw-semibold">Sodium (PDV%)</label>
+                            <label class="form-label"><i class="fas fa-salt text-muted me-2"></i>Sodium (PDV%)</label>
                             <input type="number" id="sod" class="form-control" value="10">
                         </div>
                         <div class="mb-4">
-                            <label class="form-label fw-semibold">Total Fat (PDV%)</label>
+                            <label class="form-label"><i class="fas fa-tint text-primary me-2"></i>Total Fat (PDV%)</label>
                             <input type="number" id="fat" class="form-control" value="15">
                         </div>
                         <div class="mb-4">
-                            <label class="form-label fw-semibold">Sugar (PDV%)</label>
+                            <label class="form-label"><i class="fas fa-cubes text-secondary me-2"></i>Sugar (PDV%)</label>
                             <input type="number" id="sugar" class="form-control" value="10">
                         </div>
-                        <div class="form-check form-switch mb-4">
-                            <input class="form-check-input" type="checkbox" id="isVeg">
-                            <label class="form-check-label fw-semibold">Đây là món ăn chay?</label>
+                        <div class="form-check form-switch mb-4 p-3 rounded" style="background: #f4f9f5; border: 1px solid #e0ede4;">
+                            <input class="form-check-input ms-0 me-3" type="checkbox" id="isVeg" style="width: 2.5em; height: 1.25em; cursor: pointer;">
+                            <label class="form-check-label fw-bold text-success" for="isVeg" style="cursor: pointer;">
+                                <i class="fas fa-leaf me-1"></i> Đây là món ăn chay?
+                            </label>
                         </div>
-                        <button onclick="checkHealthy()" class="btn btn-danger btn-custom w-100">
-                            <i class="fas fa-heart"></i> KIỂM TRA AI
+                        <button onclick="checkHealthy()" class="btn-theme">
+                            <i class="fas fa-heart me-2"></i> KIỂM TRA BẰNG AI
                         </button>
                     </div>
 
                     <!-- RIGHT -->
-                    <div class="col-md-7 text-center">
+                    <div class="col-md-6">
                         <div class="result-box">
-                            <h5 class="text-muted mb-4">Xác suất lành mạnh</h5>
-                            <div class="progress mb-4" style="height: 40px; border-radius: 20px;">
-                                <div id="hBar" class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" style="width:0%">
+                            <div class="result-title">Xác suất lành mạnh</div>
+                            <div class="progress w-100 mb-4" style="height: 30px; border-radius: 15px; background: #e8f5e9; box-shadow: inset 0 2px 5px rgba(0,0,0,0.05);">
+                                <div id="hBar" class="progress-bar progress-bar-striped progress-bar-animated" 
+                                     style="width:0%; background: linear-gradient(135deg, var(--theme-green-1), var(--theme-green-2)); font-weight: bold; font-size: 1.1rem;">
                                     0%
                                 </div>
                             </div>
-                            <h2 id="resHealthy" class="fw-bold display-6">--</h2>
+                            <h2 id="resHealthy" class="result-value" style="font-size: 2.5rem;">--</h2>
                         </div>
                     </div>
                 </div>

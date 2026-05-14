@@ -3,7 +3,7 @@
     <Configuration>
       <Name>Development</Name>
       <Options>
-        <TargetServer>LAPTOP-8HLRC26J\MSSQLSERVER04</TargetServer>
+        <TargetServer>DESKTOP-EB6DLBT</TargetServer>
         <TargetDatabase>NutritionBI_SSAS_FoodCom</TargetDatabase>
         <StartObject>
           <ObjectId></ObjectId>

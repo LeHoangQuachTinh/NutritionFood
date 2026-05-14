@@ -6,49 +6,44 @@
 }
 
 <div class="row justify-content-center">
-    <div class="col-lg-10">
+    <div class="col-lg-12 col-xl-11">
         <div class="glass-card">
-            <div class="bg-primary text-white text-center py-4">
-                <h2 class="fw-bold">
-                    <i class="fas fa-star"></i>
-                    Dự đoán Xếp hạng món ăn
-                </h2>
+            <div class="card-header-custom">
+                <h2><i class="fas fa-star me-2"></i>Dự đoán Xếp hạng</h2>
+                <p>AI sẽ phân tích thành phần dinh dưỡng và đưa ra mức đánh giá dự kiến</p>
             </div>
-            <div class="card-body p-5">
-                <div class="row align-items-center">
+            <div class="card-body p-5 pt-0">
+                <div class="row align-items-stretch">
                     <!-- LEFT -->
-                    <div class="col-md-5 border-end">
-                        <h4 class="text-primary fw-bold mb-4">
-                            Thông số đầu vào
-                        </h4>
+                    <div class="col-md-6 pe-md-5 mb-5 mb-md-0">
                         <div class="mb-4">
-                            <label class="form-label fw-semibold">Calories (kcal)</label>
+                            <label class="form-label"><i class="fas fa-fire-alt text-warning me-2"></i>Calories (kcal)</label>
                             <input type="number" id="cal" class="form-control" value="450">
                         </div>
                         <div class="mb-4">
-                            <label class="form-label fw-semibold">Protein (PDV%)</label>
+                            <label class="form-label"><i class="fas fa-dumbbell text-info me-2"></i>Protein (PDV%)</label>
                             <input type="number" id="pro" class="form-control" value="25">
                         </div>
                         <div class="mb-4">
-                            <label class="form-label fw-semibold">Total Fat (PDV%)</label>
+                            <label class="form-label"><i class="fas fa-tint text-primary me-2"></i>Total Fat (PDV%)</label>
                             <input type="number" id="fat" class="form-control" value="15">
                         </div>
                         <div class="mb-4">
-                            <label class="form-label fw-semibold">Sugar (PDV%)</label>
+                            <label class="form-label"><i class="fas fa-cubes text-secondary me-2"></i>Sugar (PDV%)</label>
                             <input type="number" id="sugar" class="form-control" value="10">
                         </div>
-                        <button onclick="predictRating()" class="btn btn-primary btn-custom w-100">
-                            <i class="fas fa-chart-line"></i> PHÂN TÍCH AI
+                        <button onclick="predictRating()" class="btn-theme">
+                            <i class="fas fa-magic me-2"></i> PHÂN TÍCH BẰNG AI
                         </button>
                     </div>
 
                     <!-- RIGHT -->
-                    <div class="col-md-7 text-center">
+                    <div class="col-md-6">
                         <div class="result-box">
-                            <h5 class="text-muted">Kết quả dự đoán</h5>
-                            <h1 id="resRating" class="display-1 fw-bold text-primary my-4">--</h1>
-                            <div id="resConf" class="badge bg-light text-dark border p-3 fs-6">
-                                Đang chờ dữ liệu...
+                            <div class="result-title">Kết quả dự đoán</div>
+                            <div id="resRating" class="result-value">--</div>
+                            <div id="resConf" class="result-badge">
+                                <i class="fas fa-clock me-1"></i> Đang chờ dữ liệu...
                             </div>
                         </div>
                     </div>
