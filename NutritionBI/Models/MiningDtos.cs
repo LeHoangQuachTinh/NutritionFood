@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.ComponentModel.DataAnnotations;
 
 namespace NutritionBI.Web.Models
@@ -28,6 +28,9 @@ namespace NutritionBI.Web.Models
 
         [Display(Name = "Thời gian nấu (phút)")]
         public int Minutes { get; set; } = 30;
+        
+        [Display(Name = "Số lượng nguyên liệu")]
+        public int N_Ingredients { get; set; } = 5;
 
         // Có thể thêm sau này nếu cần
         // public double SatFat_PDV { get; set; }

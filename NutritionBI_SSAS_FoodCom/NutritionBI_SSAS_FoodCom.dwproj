@@ -46,16 +46,16 @@
   </DataSourceViews>
   <MiningModels>
     <ProjectItem>
-      <Name>Recipe Rating Structure.dmm</Name>
-      <FullPath>Recipe Rating Structure.dmm</FullPath>
-    </ProjectItem>
-    <ProjectItem>
       <Name>Healthy Recipe Structure.dmm</Name>
       <FullPath>Healthy Recipe Structure.dmm</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Recipe Cluster Structure.dmm</Name>
       <FullPath>Recipe Cluster Structure.dmm</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Recipe Rating Structure.dmm</Name>
+      <FullPath>Recipe Rating Structure.dmm</FullPath>
     </ProjectItem>
   </MiningModels>
   <Configurations>

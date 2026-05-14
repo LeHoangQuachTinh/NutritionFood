@@ -1,4 +1,4 @@
-﻿using Microsoft.AnalysisServices.AdomdClient;
+using Microsoft.AnalysisServices.AdomdClient;
 using NutritionBI.Web.Models;
 using System;
 using System.Configuration;
@@ -23,12 +23,17 @@ namespace NutritionBI.Web.Services
                         SELECT
                             Predict([Rating Category]) AS [PredictedRating],
                             PredictProbability([Rating Category]) AS [Probability]
-                        FROM [Recipe Rating Decision Tree]
+                        FROM [V Decision Tree High Accuracy]
                         NATURAL PREDICTION JOIN
                         (SELECT {input.Calories} AS [Calories],
-                                {input.Protein_PDV} AS [Protein_PDV],
-                                {input.TotalFat_PDV} AS [TotalFat_PDV],
-                                {input.Sugar_PDV} AS [Sugar_PDV]) AS [t]";
+                                 {input.Protein_PDV} AS [Protein_PDV],
+                                 {input.TotalFat_PDV} AS [TotalFat_PDV],
+                                 {input.Sugar_PDV} AS [Sugar_PDV],
+                                 {input.Sodium_PDV} AS [Sodium_PDV],
+                                 {input.Carbs_PDV} AS [Carbs_PDV],
+                                 {input.Minutes} AS [Minutes],
+                                 {input.N_Ingredients} AS [N_ingredients],
+                                 {input.IsVegetarian} AS [IsVegetarian]) AS [t]";
 
                     using (var cmd = new AdomdCommand(dmx, conn))
                     using (var dr = cmd.ExecuteReader())

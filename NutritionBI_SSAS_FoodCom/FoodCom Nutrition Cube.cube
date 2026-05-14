@@ -1,4 +1,4 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="76981f17-2fcc-4fe1-835b-a72c9558bb56" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="1e685627-24d9-4103-961b-8f50096cf706" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Nutrition DW Food Com</ID>
   <Name>FoodCom Nutrition Cube</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="16" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-8816" scrolltop="3597" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="20055" y="9062" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="25" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-8816" scrolltop="3597" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="17767" y="12726" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="0100000090019e330100065461686f6d61" />
             </font>
@@ -63,7 +63,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="1155" top="12100" logicalid="12" controlid="5" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline" left="55" top="12100" logicalid="22" controlid="15" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -76,12 +76,12 @@
                 <property name="VisibleAP" value="0" vartype="3" />
               </ddsxmlobj>
             </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="1" sourceattachpoint="4" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="1554" y="14800" />
-              <point x="1554" y="12400" />
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="1" sourceattachpoint="0" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="454" y="14800" />
+              <point x="454" y="12400" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="2789" top="9501" logicalid="13" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline" left="2789" top="7851" logicalid="23" controlid="16" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -94,12 +94,12 @@
                 <property name="VisibleAP" value="0" vartype="3" />
               </ddsxmlobj>
             </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="1" sourceattachpoint="16" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="5489" y="9900" />
-              <point x="3089" y="9900" />
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="1" sourceattachpoint="10" destattachpoint="13" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="5489" y="8250" />
+              <point x="3089" y="8250" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="1155" top="4501" logicalid="14" controlid="7" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline" left="55" top="4501" logicalid="24" controlid="17" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -112,9 +112,9 @@
                 <property name="VisibleAP" value="0" vartype="3" />
               </ddsxmlobj>
             </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="1554" y="5000" />
-              <point x="1554" y="7400" />
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="1" destattachpoint="0" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="454" y="5000" />
+              <point x="454" y="7400" />
             </connector>
           </ddscontrol>
         </dds>
@@ -156,126 +156,126 @@
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Dimensions>
-    <Dimension dwd:design-time-name="0455aa5c-d021-4c72-94d0-74c536b6885d">
+    <Dimension dwd:design-time-name="bae4e680-8d05-4bd2-b581-9c07125372e3">
       <ID>Dim Users</ID>
       <Name>Dim Users</Name>
       <DimensionID>Dim Users</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="a9641fd3-2abe-4dcc-a350-d695ec729495">
+        <Attribute dwd:design-time-name="ffaa3ec9-2fe7-43c3-ad0a-2ab5dabd87d9">
           <AttributeID>User Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="04b89215-3ea3-42f2-9f78-60597010d9c4">
+        <Attribute dwd:design-time-name="e7b35372-40fd-4ab9-ae59-6f80be538348">
           <AttributeID>Total Reviews</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="055754c9-0548-4e69-8072-2eb25228862b">
+        <Attribute dwd:design-time-name="a8d2960d-6070-42f9-b351-102483fa2e24">
           <AttributeID>Avg Rating Given</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="65a93235-9432-4a17-9e6d-4b6698e84f6a">
+        <Attribute dwd:design-time-name="3278d0a0-f3d2-49f0-b9b5-3907ec3b204c">
           <AttributeID>Active Years</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="fa698909-afb9-42ba-873b-928e72276b86">
+        <Attribute dwd:design-time-name="21f3ef45-9219-41bf-8a34-0513dc5aff7d">
           <AttributeID>User Segment</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="adf4b453-4a02-4729-857f-5ee2ee3816ab">
+        <Hierarchy dwd:design-time-name="bf562a58-3fb7-4910-bd6f-1c7fc6efdbb9">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="33948d72-77b8-492d-96c6-d812e38d4920">
+    <Dimension dwd:design-time-name="834b017c-31a3-4273-b517-0f39a301acc2">
       <ID>Dim Time</ID>
       <Name>Dim Time</Name>
       <DimensionID>Dim Time</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="d280840e-a9da-4871-a283-fccd04615e61">
+        <Attribute dwd:design-time-name="6862e341-089b-4146-b070-9a0784fbf203">
           <AttributeID>Time Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="d2295c0c-b955-4c66-a37b-af2a8181db70">
+        <Attribute dwd:design-time-name="19559540-89a8-4664-a195-0287b9f7230a">
           <AttributeID>Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="4ae6b9de-aebc-487f-b4a4-f6c23cd3debf">
+        <Attribute dwd:design-time-name="cc4fc2c1-0d3a-4ccf-95dc-2abb613b81ec">
           <AttributeID>Quarter</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="964cb76d-812a-4922-8866-a775cf2883eb">
+        <Attribute dwd:design-time-name="6663fd74-0dd9-48f2-98d2-9fbce6db6b51">
           <AttributeID>Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="b2be5daf-9220-4639-b5e2-faffd25700e3">
+        <Attribute dwd:design-time-name="9feb02c8-8e18-4d66-acc3-a25184a9ab3c">
           <AttributeID>Day</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="ce49df12-3032-4047-9f46-279238776660">
+        <Attribute dwd:design-time-name="b5837a3e-6c46-4109-bc96-5a01c439b44e">
           <AttributeID>Week Day</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="5143a3ac-81f5-4fd2-9e83-0f3d7a63d2b3">
+        <Attribute dwd:design-time-name="633829a4-f87c-4c1a-b955-9d8720cccdb0">
           <AttributeID>Is Weekend</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="cba96efa-3648-4bdb-94c9-6b6a3323bcf3">
+        <Hierarchy dwd:design-time-name="3b6db44e-e3b4-4768-92c1-b702176228e6">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="1749ff26-ec9f-4832-8a51-56925ca3f560">
+        <Hierarchy dwd:design-time-name="7fe40899-97b0-4755-a8ea-2d9f18220dfa">
           <HierarchyID>Hierarchy 1</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="19c85b9b-31fa-421a-9f98-c5977230f033">
+    <Dimension dwd:design-time-name="dca5d899-d27b-461c-96fc-b545ce669130">
       <ID>Dim Recipes</ID>
       <Name>Dim Recipes</Name>
       <DimensionID>Dim Recipes</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="c61a7f22-a9d7-42e2-9b8b-c4219e4af2e8">
+        <Attribute dwd:design-time-name="15c6af92-63e3-44d4-b8d0-969a318fffb7">
           <AttributeID>Recipe Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="95475918-0df2-4cd6-9bb3-f1fef154d88c">
+        <Attribute dwd:design-time-name="1f99c3ed-53e1-4bdc-9854-4c68008f06e1">
           <AttributeID>N Steps</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="a8b8b94b-d7ab-42c1-ac06-3caa10d21758">
+        <Attribute dwd:design-time-name="a278e8b4-1889-4d53-83df-c77683f22514">
           <AttributeID>N Ingredients</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="cb189a85-fd2c-424b-b8f1-45c03d44ff27">
+        <Attribute dwd:design-time-name="7187d9b2-5e19-47af-82ac-74c95a0c1acc">
           <AttributeID>Minutes</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="040a9e18-d695-4cbe-a574-cd5d8ba54be1">
+        <Attribute dwd:design-time-name="407a6fd0-f7bf-478d-8bfa-ce07dd321b61">
           <AttributeID>Calories</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="be3f5234-7b71-4389-9f32-8145d7a7bca3">
+        <Attribute dwd:design-time-name="0e276c64-f62d-40df-9db3-cf5018a4cf5c">
           <AttributeID>Is High Protein</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="8eee536d-1d66-44c8-b96f-4bac0ddda851">
+        <Attribute dwd:design-time-name="e15f9fd3-430f-4eb4-96ac-d2932856eb2c">
           <AttributeID>Is Low Calorie</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="06119f8c-952e-4df0-b1e2-896905014e17">
+        <Attribute dwd:design-time-name="6f14a23d-cddb-4ada-88c0-93705d406c98">
           <AttributeID>Is Quick</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="99eb63cb-ce36-48e0-8ebf-7225bf079b8d">
+        <Attribute dwd:design-time-name="e56a671a-200f-4743-aa78-c0f309d2c746">
           <AttributeID>Is Vegetarian</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="35853aed-7d89-466a-95ca-ef56984b0638">
+        <Attribute dwd:design-time-name="38946351-4baf-406f-9f75-35ee7f571536">
           <AttributeID>Cluster ID</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="e7492c28-8697-4d07-820b-dd11e285606e">
+        <Attribute dwd:design-time-name="230f6869-d50e-42bd-a315-30bf9b40079d">
           <AttributeID>Cluster Label</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="f9c41bbb-6343-4656-89af-e9965ae72ff4">
+        <Attribute dwd:design-time-name="1bcb83fc-1a49-4a12-aeed-4734f8ec131b">
           <AttributeID>Avg Rating</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="e54f5ad5-f19f-45a0-8f2d-350adfd4b02b">
+        <Hierarchy dwd:design-time-name="0998215e-d6e8-405d-8284-9cccda275955">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="aeb22460-443e-4a97-8f2e-8b3d678442d0">
+        <Hierarchy dwd:design-time-name="53c8bd59-fd13-442a-8ce1-ba334ee3197b">
           <HierarchyID>Hierarchy 1</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="df9a35e2-ecaf-4ff6-aa92-0b50dacf7fe6">
+        <Hierarchy dwd:design-time-name="5f66a123-f044-4a7b-9b71-4a96399f13fa">
           <HierarchyID>Hierarchy 1 1</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
   </Dimensions>
   <MeasureGroups>
-    <MeasureGroup dwd:design-time-name="7cbce917-625e-4a30-97ba-473b39146d96">
+    <MeasureGroup dwd:design-time-name="b4cddda1-237a-417e-a31c-b7eba276b4eb">
       <ID>Fact Recipe Interaction</ID>
       <Name>Fact Recipe Interaction</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -283,112 +283,112 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="57f1373f-148a-422b-92ed-22069bfe96a1">
+        <Measure dwd:design-time-name="746707ea-54ec-4ce0-9ad7-9a4056fd1eeb">
           <ID>Sum of Ratings</ID>
           <Name>Sum of Ratings</Name>
-          <Source dwd:design-time-name="eab8a584-8108-40c2-bdd3-a1793b530f6b">
+          <Source dwd:design-time-name="b3c91413-5a0e-42dc-ab38-d85bf8b7c053">
             <DataType>UnsignedInt</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="c068d754-6ef2-4aed-b979-6451771054ed">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="47b9b54b-c384-492d-9bb0-dd7f69939e3f">
               <TableID>dbo_Fact_RecipeInteraction</TableID>
               <ColumnID>Rating</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="fabdd052-74aa-4e9d-9640-07e117ffc811">
+        <Measure dwd:design-time-name="ec150cdf-bfff-46f9-b3a7-3c1ee059a309">
           <ID>Review Length</ID>
           <Name>Review Length</Name>
-          <Source dwd:design-time-name="34665dfa-5220-460e-9e3d-0ded032b5bfe">
+          <Source dwd:design-time-name="975c43cf-6960-4730-8513-ba23ece6a5c6">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="c1be9b64-99fd-4716-9bae-796744e379cc">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="50b10999-86c4-45bb-936e-b1eaaa98e9ef">
               <TableID>dbo_Fact_RecipeInteraction</TableID>
               <ColumnID>ReviewLength</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="391974f2-d429-4adf-b0fc-98f65f2f6895">
+        <Measure dwd:design-time-name="063afc30-84c6-421d-8498-99cbb8c650fa">
           <ID>Calories</ID>
           <Name>Calories</Name>
-          <Source dwd:design-time-name="471433cc-1175-4c3c-85d1-56734b9bb9d7">
+          <Source dwd:design-time-name="502f8111-901a-4337-bcae-8b60df219546">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="fa811cab-2191-4c8d-a9b4-95abe16c78c7">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="c80f9e66-5386-45b7-81c2-31222b10db60">
               <TableID>dbo_Fact_RecipeInteraction</TableID>
               <ColumnID>Calories</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="b750b438-4f4b-4a80-ae44-7c1f1ed99c61">
+        <Measure dwd:design-time-name="677237ef-e23c-4598-bd04-20d92ce302bc">
           <ID>Total Fat PDV</ID>
           <Name>Total Fat PDV</Name>
-          <Source dwd:design-time-name="3516556b-23a9-402d-ad8e-418db24934d2">
+          <Source dwd:design-time-name="0c7d04af-dfe3-49ba-97c6-088f5043ae1a">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="b741d25d-9262-4762-a34c-686562540811">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="13f8ac34-abdb-4665-b748-c64c6a942cdb">
               <TableID>dbo_Fact_RecipeInteraction</TableID>
               <ColumnID>TotalFat_PDV</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="17dfa511-9fe3-402f-8bc2-8ec3a6e1a14c">
+        <Measure dwd:design-time-name="59b4f51f-9c5d-4268-b7e3-80c367db27cf">
           <ID>Sugar PDV</ID>
           <Name>Sugar PDV</Name>
-          <Source dwd:design-time-name="c7e44889-38d3-41a2-b7dd-b5a7bcaf84c1">
+          <Source dwd:design-time-name="d5160c85-cdff-4ccb-8b72-aabbc6b21ce0">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="c374c247-bfa4-40b7-86e2-949557116a12">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="928d4dd6-7b4d-4acf-8218-cd0e60292886">
               <TableID>dbo_Fact_RecipeInteraction</TableID>
               <ColumnID>Sugar_PDV</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="8515b3e1-aca6-4f44-889b-0aeaea89854c">
+        <Measure dwd:design-time-name="23f0e59c-11cf-4c77-a0a8-ed759e361e19">
           <ID>Sodium PDV</ID>
           <Name>Sodium PDV</Name>
-          <Source dwd:design-time-name="b2e619c8-8abe-4334-b9bf-22c813ccce93">
+          <Source dwd:design-time-name="dc57bdba-31a5-4707-96ba-f2d435a858ff">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="3f1a5301-5b68-4e36-98e6-67af46c66ce4">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d516115c-46d1-4ac9-816a-ab76289e9ea7">
               <TableID>dbo_Fact_RecipeInteraction</TableID>
               <ColumnID>Sodium_PDV</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="bdbdd326-8784-4c56-b92b-8f5c97de59d3">
+        <Measure dwd:design-time-name="ccb86c25-2bad-4fc4-8415-51b89788316c">
           <ID>Protein PDV</ID>
           <Name>Protein PDV</Name>
-          <Source dwd:design-time-name="fe4ebdba-e074-426a-9a18-7e784d20395e">
+          <Source dwd:design-time-name="a66e757b-9f1f-4513-b7e7-6f9cea40bb0b">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="5dabcbd2-387d-41d8-9ca2-af1da352701b">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="c1dfe998-fb17-40b5-a80a-6fddabb40611">
               <TableID>dbo_Fact_RecipeInteraction</TableID>
               <ColumnID>Protein_PDV</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="3c45460f-7759-408b-8f06-c8cf3c4027d2">
+        <Measure dwd:design-time-name="418f4576-170f-42ea-bf8f-196fc4bfb877">
           <ID>Carbs PDV</ID>
           <Name>Carbs PDV</Name>
-          <Source dwd:design-time-name="53bb877e-79f9-45c0-a6d2-0bc6103e6316">
+          <Source dwd:design-time-name="7a62b515-a0d3-4b57-8946-25c5fb9669e2">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="10a0063f-b057-45d7-9b02-5de9bf21bb4a">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="1be1d76b-8760-489c-9867-13906adc025e">
               <TableID>dbo_Fact_RecipeInteraction</TableID>
               <ColumnID>Carbs_PDV</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="90654ecb-3a30-452d-a03e-2bbd05c9b57b">
+        <Measure dwd:design-time-name="851e94ab-18f3-4f44-83e1-78148f727578">
           <ID>InteractionID Count</ID>
           <Name>InteractionID Count</Name>
           <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="899a759d-381d-4ca3-9160-5b1fe49ce703">
+          <Source dwd:design-time-name="c1c694d7-cc7e-4a20-91b6-dfc24299ca38">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="2c4c286c-4ea8-4861-9ad1-44cfb0d0d342">
+            <Source xsi:type="RowBinding" dwd:design-time-name="c5b893de-36ab-4fea-aa2d-79af9989cf14">
               <TableID>dbo_Fact_RecipeInteraction</TableID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="b7155bd2-cc20-4e51-a306-ce1c659abce5">
+        <Measure dwd:design-time-name="685921d7-1112-4508-83da-8e21d760abf9">
           <ID>Has Review</ID>
           <Name>Total Reviews</Name>
-          <Source dwd:design-time-name="36d14260-6f61-4ba1-b5da-b307511383b7">
+          <Source dwd:design-time-name="0ff37155-0690-403d-80d5-44244dfeb4a8">
             <DataType>Boolean</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="50a013d8-21d1-4048-83b4-56f936b3d2ee">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5105e49d-33c2-4613-b274-bab8e506006b">
               <TableID>dbo_Fact_RecipeInteraction</TableID>
               <ColumnID>HasReview</ColumnID>
             </Source>
@@ -398,15 +398,15 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="2e63f217-61ca-498c-b33f-64327ed24937">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="aa077659-efe5-4232-a0de-96603fa367e5">
           <CubeDimensionID>Dim Users</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="b4cff1a8-0f1d-4ce5-8551-6712fe4cad51">
+            <Attribute dwd:design-time-name="c7bf27d2-aadf-4bdb-a7d9-28f38f0e3d44">
               <AttributeID>User Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="d44bd8f9-730e-4ae6-b8c9-aae3cf3786cc">
+                <KeyColumn dwd:design-time-name="043fa78c-f7eb-4fac-a689-ccf2236aeafa">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="12e4b8a5-5c5a-4289-854d-2ea09c6952ca">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ee4ef79d-0d04-47c9-899b-6bc4ad5c99c5">
                     <TableID>dbo_Fact_RecipeInteraction</TableID>
                     <ColumnID>UserKey</ColumnID>
                   </Source>
@@ -416,15 +416,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="012115e0-1236-40c4-a831-2ae10dfc4138">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="45f58c4b-55ef-4d64-8dd1-c973a8a54ca7">
           <CubeDimensionID>Dim Time</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="9b48c843-98f9-42d2-aa6d-b17d7dfc22bb">
+            <Attribute dwd:design-time-name="2307371f-1769-4726-86a4-fbb96dde00be">
               <AttributeID>Time Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="9387f07f-6d6a-47a5-913a-eb8fca1f23c9">
+                <KeyColumn dwd:design-time-name="f3ea1f6d-8686-4fbb-80c0-c15ad8bb82b3">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f5448a93-1f06-4981-856a-9faa64ee22b8">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2049ec53-ce85-4968-a1af-a16f9bf21959">
                     <TableID>dbo_Fact_RecipeInteraction</TableID>
                     <ColumnID>TimeKey</ColumnID>
                   </Source>
@@ -434,15 +434,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d043bec9-1231-40d9-8675-e45869254dd4">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5e6309fb-d46e-47dd-b67c-8a11090757fe">
           <CubeDimensionID>Dim Recipes</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="0e64638a-8508-4793-988a-86c2225efa08">
+            <Attribute dwd:design-time-name="3e1eb217-eeda-4a0d-8e1b-4b930ed93c2b">
               <AttributeID>Recipe Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="739d582d-5b03-461f-8411-6ca347626574">
+                <KeyColumn dwd:design-time-name="c18b57da-bc9a-48ab-9258-0d6bb80b2fd8">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ab56ae67-2fed-4b86-a581-c4f1e30fa97c">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="bf5faee4-92cd-4e9c-b2c4-0c9461d940e7">
                     <TableID>dbo_Fact_RecipeInteraction</TableID>
                     <ColumnID>RecipeKey</ColumnID>
                   </Source>
@@ -456,11 +456,11 @@
       <Partitions />
     </MeasureGroup>
   </MeasureGroups>
-  <Source dwd:design-time-name="ad52e123-1f6f-416a-a095-03d3b1e6e90a">
+  <Source dwd:design-time-name="30be7765-252f-4448-9c5e-679cd38182e6">
     <DataSourceViewID>Nutrition DW Food Com</DataSourceViewID>
   </Source>
   <MdxScripts>
-    <MdxScript dwd:design-time-name="34d34bae-541e-47c5-b755-f3c030300190">
+    <MdxScript dwd:design-time-name="a04ba017-b4fb-4d59-ad44-727c96e07544">
       <ID>MdxScript</ID>
       <Name>MdxScript</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -479,7 +479,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].[Review Rate %] AS IIF([Measures].[Interact
     </MdxScript>
   </MdxScripts>
   <Kpis>
-    <Kpi dwd:design-time-name="a33a61ef-8eea-465f-b18a-2964703ff8e0">
+    <Kpi dwd:design-time-name="4113729b-09b0-4d7b-9b67-46fb5005937a">
       <ID>KPI</ID>
       <Name>Recipe Quality</Name>
       <Value>[Measures].[Avg Rating]</Value>

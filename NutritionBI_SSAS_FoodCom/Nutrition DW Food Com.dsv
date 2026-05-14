@@ -1,4 +1,4 @@
-﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="09ad00a7-5878-4f41-8570-4d938615cb4c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e0e1e059-b2af-4130-a89f-8b8464357981" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Nutrition DW Food Com</ID>
   <Name>Nutrition DW Food Com</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -27,7 +27,7 @@
             <Name>_ALL_TABLES_</Name>
             <DiagramLayout>
               <dds>
-                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="26" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-16047" scrolltop="753" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="20585" y="13772" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="31" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-15841" scrolltop="4419" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="18296" y="9313" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                   <font>
                     <ddsxmlobjectstreamwrapper binary="0100000090019e330100065461686f6d61" />
                   </font>
@@ -38,7 +38,7 @@
                 <layoutmanager>
                   <ddsxmlobj />
                 </layoutmanager>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Recipes" left="2493" top="-1235" logicalid="9" controlid="1" masterid="0" hint1="0" hint2="0" width="3056" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Recipes" left="6617" top="0" logicalid="10" controlid="1" masterid="0" hint1="0" hint2="0" width="3056" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="000e0000f00b000088130000" />
                   </control>
@@ -49,7 +49,7 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Time" left="5469" top="7790" logicalid="10" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="4220" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Time" left="9593" top="9025" logicalid="11" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="4220" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00007c100000" />
                   </control>
@@ -60,7 +60,7 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Users" left="26" top="14800" logicalid="11" controlid="3" masterid="0" hint1="0" hint2="0" width="3016" height="3876" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Users" left="4150" top="16035" logicalid="12" controlid="3" masterid="0" hint1="0" hint2="0" width="3016" height="3876" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="000e0000c80b0000240f0000" />
                   </control>
@@ -71,7 +71,7 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Fact_RecipeInteraction" left="0" top="7400" logicalid="12" controlid="4" masterid="0" hint1="0" hint2="0" width="3069" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Fact_RecipeInteraction" left="4124" top="8635" logicalid="13" controlid="4" masterid="0" hint1="0" hint2="0" width="3069" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="000e0000fd0b000088130000" />
                   </control>
@@ -82,7 +82,40 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="1135" top="12100" logicalid="13" controlid="5" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Mining_LogisticReg" left="0" top="5679" logicalid="17" controlid="8" masterid="0" hint1="0" hint2="0" width="3000" height="3811" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000e30e0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Mining_LogisticReg" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Mining_Recipes" left="0" top="14369" logicalid="18" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000088130000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Mining_Recipes" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="V_DecisionTree_HighAccuracy" left="-5444" top="11157" logicalid="21" controlid="12" masterid="0" hint1="0" hint2="0" width="3000" height="4480" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000080110000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_V_DecisionTree_HighAccuracy" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="4159" top="13335" logicalid="28" controlid="19" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -95,12 +128,12 @@
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="4" sourceattachpoint="4" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="1534" y="14800" />
-                    <point x="1534" y="12400" />
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="4" sourceattachpoint="0" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="4558" y="16035" />
+                    <point x="4558" y="13635" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="2769" top="9501" logicalid="14" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline" left="6893" top="9086" logicalid="29" controlid="20" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -113,12 +146,12 @@
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="4" sourceattachpoint="16" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="5469" y="9900" />
-                    <point x="3069" y="9900" />
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="4" sourceattachpoint="10" destattachpoint="13" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="9593" y="9485" />
+                    <point x="7193" y="9485" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="2334" top="3266" logicalid="15" controlid="7" masterid="0" hint1="0" hint2="0" width="987" height="4434" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline" left="6458" top="4501" logicalid="30" controlid="21" masterid="0" hint1="0" hint2="0" width="987" height="4434" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -132,40 +165,18 @@
                     </ddsxmlobj>
                   </layoutobject>
                   <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="4" sourceattachpoint="1" destattachpoint="8" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="2921" y="3765" />
-                    <point x="2921" y="5582" />
-                    <point x="2634" y="5582" />
-                    <point x="2634" y="7400" />
+                    <point x="7045" y="5000" />
+                    <point x="7045" y="6817" />
+                    <point x="6758" y="6817" />
+                    <point x="6758" y="8635" />
                   </connector>
-                </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Mining_LogisticReg" left="-4124" top="4444" logicalid="24" controlid="16" masterid="0" hint1="0" hint2="0" width="3000" height="3811" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-                  <control>
-                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000e30e0000" />
-                  </control>
-                  <layoutobject>
-                    <ddsxmlobj>
-                      <property name="LogicalObject" value="dbo_Mining_LogisticReg" vartype="8" />
-                    </ddsxmlobj>
-                  </layoutobject>
-                  <shape groupshapeid="0" groupnode="0" />
-                </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Mining_Recipes" left="-4124" top="13134" logicalid="25" controlid="17" masterid="0" hint1="0" hint2="0" width="3000" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-                  <control>
-                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000088130000" />
-                  </control>
-                  <layoutobject>
-                    <ddsxmlobj>
-                      <property name="LogicalObject" value="dbo_Mining_Recipes" vartype="8" />
-                    </ddsxmlobj>
-                  </layoutobject>
-                  <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
               </dds>
 </DiagramLayout>
             <ShowRelationshipNames>False</ShowRelationshipNames>
             <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
-            <DiagramViewPortLeft>-16047</DiagramViewPortLeft>
-            <DiagramViewPortTop>753</DiagramViewPortTop>
+            <DiagramViewPortLeft>-15841</DiagramViewPortLeft>
+            <DiagramViewPortTop>4419</DiagramViewPortTop>
             <DiagramBoundingLeft>0</DiagramBoundingLeft>
             <DiagramBoundingTop>0</DiagramBoundingTop>
             <DiagramZoom>75</DiagramZoom>
@@ -330,7 +341,7 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="dbo_Mining_LogisticReg" msprop:design-time-name="77217aa4-5dd2-44b9-912a-b39b725b3aff" msprop:DbTableName="Mining_LogisticReg" msprop:FriendlyName="Mining_LogisticReg" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+            <xs:element name="dbo_Mining_LogisticReg" msprop:design-time-name="77217aa4-5dd2-44b9-912a-b39b725b3aff" msprop:FriendlyName="Mining_LogisticReg" msprop:DbSchemaName="dbo" msprop:DbTableName="Mining_LogisticReg" msprop:TableType="Table">
               <xs:complexType>
                 <xs:sequence>
                   <xs:element name="RecipeID" msprop:design-time-name="9b9549fb-a0df-4f34-beae-fc05a5550c10" msprop:DbColumnName="RecipeID" msprop:FriendlyName="RecipeID" type="xs:int" />
@@ -345,7 +356,7 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="dbo_Mining_Recipes" msprop:design-time-name="2e12299b-6d75-44f9-93ee-9a9b5557fd6b" msprop:DbTableName="Mining_Recipes" msprop:FriendlyName="Mining_Recipes" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+            <xs:element name="dbo_Mining_Recipes" msprop:design-time-name="2e12299b-6d75-44f9-93ee-9a9b5557fd6b" msprop:FriendlyName="Mining_Recipes" msprop:DbSchemaName="dbo" msprop:DbTableName="Mining_Recipes" msprop:TableType="Table">
               <xs:complexType>
                 <xs:sequence>
                   <xs:element name="RecipeID" msprop:design-time-name="e797147f-fab2-4b8e-9bc1-cbeafac54eed" msprop:DbColumnName="RecipeID" msprop:FriendlyName="RecipeID" type="xs:int" />
@@ -381,6 +392,33 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
+            <xs:element name="dbo_V_DecisionTree_HighAccuracy" msprop:design-time-name="c479dbfa-570d-44c7-bc45-02b85fab5a10" msprop:FriendlyName="V_DecisionTree_HighAccuracy" msprop:DbSchemaName="dbo" msprop:DbTableName="V_DecisionTree_HighAccuracy" msprop:TableType="View">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="RecipeID" msdata:ReadOnly="true" msprop:design-time-name="f454d186-095e-4bab-b1e9-6a05bac3575b" msprop:DbColumnName="RecipeID" msprop:FriendlyName="RecipeID" type="xs:int" />
+                  <xs:element name="RatingCategory" msdata:ReadOnly="true" msprop:design-time-name="6aac3c7b-4edd-44ce-a9d3-778b40086ae7" msprop:DbColumnName="RatingCategory" msprop:FriendlyName="RatingCategory">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="9" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Minutes" msdata:ReadOnly="true" msprop:design-time-name="3e26ee47-13df-4454-aafb-7a159dd2379f" msprop:DbColumnName="Minutes" msprop:FriendlyName="Minutes" type="xs:int" minOccurs="0" />
+                  <xs:element name="NSteps" msdata:ReadOnly="true" msprop:design-time-name="f97bbd2d-109f-4d30-9250-d666f3344e31" msprop:DbColumnName="NSteps" msprop:FriendlyName="NSteps" type="xs:int" minOccurs="0" />
+                  <xs:element name="NIngredients" msdata:ReadOnly="true" msprop:design-time-name="4dd668e8-4dcd-4dab-b660-4929f7cbbd6c" msprop:DbColumnName="NIngredients" msprop:FriendlyName="NIngredients" type="xs:int" minOccurs="0" />
+                  <xs:element name="Protein_PDV" msdata:ReadOnly="true" msprop:design-time-name="0bc11cc0-5724-47fb-a366-d71b03287fcb" msprop:DbColumnName="Protein_PDV" msprop:FriendlyName="Protein_PDV" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Sugar_PDV" msdata:ReadOnly="true" msprop:design-time-name="f527284b-bc1e-461a-929b-f672bd678286" msprop:DbColumnName="Sugar_PDV" msprop:FriendlyName="Sugar_PDV" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="IsHighProtein" msprop:design-time-name="5919d73c-9d87-463c-a177-4de2421c69e5" msprop:DbColumnName="IsHighProtein" type="xs:int" minOccurs="0" />
+                  <xs:element name="IsLowCalorie" msprop:design-time-name="a53c3406-f982-4bf1-8c8b-7fc292412f49" msprop:DbColumnName="IsLowCalorie" type="xs:int" minOccurs="0" />
+                  <xs:element name="IsQuick" msprop:design-time-name="74d62f25-6a96-4aee-82dc-f0e880430b37" msprop:DbColumnName="IsQuick" type="xs:int" minOccurs="0" />
+                  <xs:element name="IsVegetarian" msprop:design-time-name="7d9a12b3-5e9e-42ed-bfe6-301c72f6d84d" msprop:DbColumnName="IsVegetarian" type="xs:int" minOccurs="0" />
+                  <xs:element name="ProteinDensity" msprop:design-time-name="ab3ab453-06bc-4d19-ab14-65ac992aee77" msprop:DbColumnName="ProteinDensity" type="xs:double" minOccurs="0" />
+                  <xs:element name="Calories" msprop:DbColumnName="Calories" msprop:design-time-name="bf320e42-d7a4-4ff3-815a-97db4888408f" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="TotalFat_PDV" msprop:DbColumnName="TotalFat_PDV" msprop:design-time-name="328397d0-2100-4f18-b09f-00db642a0a38" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="SugarDensity" msprop:DbColumnName="SugarDensity" msprop:design-time-name="6cc3bb37-4607-4c96-9f0f-282e9802fe0e" type="xs:double" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
           </xs:choice>
         </xs:complexType>
         <xs:unique name="Constraint1" msdata:PrimaryKey="true">
@@ -407,17 +445,21 @@
           <xs:selector xpath=".//dbo_Mining_Recipes" />
           <xs:field xpath="RecipeID" />
         </xs:unique>
-        <xs:keyref name="FK_Fact_User" refer="dbo_Dim_Users_Constraint1">
+        <xs:unique name="dbo_V_DecisionTree_HighAccuracy_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_V_DecisionTree_HighAccuracy" />
+          <xs:field xpath="RecipeID" />
+        </xs:unique>
+        <xs:keyref name="FK_Fact_Recipe" refer="Constraint1">
           <xs:selector xpath=".//dbo_Fact_RecipeInteraction" />
-          <xs:field xpath="UserKey" />
+          <xs:field xpath="RecipeKey" />
         </xs:keyref>
         <xs:keyref name="FK_Fact_Time" refer="dbo_Dim_Time_Constraint1">
           <xs:selector xpath=".//dbo_Fact_RecipeInteraction" />
           <xs:field xpath="TimeKey" />
         </xs:keyref>
-        <xs:keyref name="FK_Fact_Recipe" refer="Constraint1">
+        <xs:keyref name="FK_Fact_User" refer="dbo_Dim_Users_Constraint1">
           <xs:selector xpath=".//dbo_Fact_RecipeInteraction" />
-          <xs:field xpath="RecipeKey" />
+          <xs:field xpath="UserKey" />
         </xs:keyref>
       </xs:element>
     </xs:schema>

@@ -12,35 +12,58 @@
                 <h2><i class="fas fa-heartbeat text-danger me-2"></i>Đánh giá độ lành mạnh</h2>
                 <p>Hệ thống AI phân tích mức độ an toàn và lành mạnh của món ăn</p>
             </div>
-            <div class="card-body p-5 pt-0">
+            <div class="card-body p-4 pt-0">
                 <div class="row align-items-stretch">
                     <!-- LEFT -->
-                    <div class="col-md-6 pe-md-5 mb-5 mb-md-0">
-                        <div class="mb-4">
-                            <label class="form-label"><i class="fas fa-salt text-muted me-2"></i>Sodium (PDV%)</label>
-                            <input type="number" id="sod" class="form-control" value="10">
+                    <div class="col-md-7 pe-md-5 mb-5 mb-md-0">
+                        <div class="row">
+                            <div class="col-sm-6 mb-3">
+                                <label class="form-label"><i class="fas fa-fire-alt text-warning"></i> Calories (kcal)</label>
+                                <input type="number" id="cal" class="form-control" value="450">
+                            </div>
+                            <div class="col-sm-6 mb-3">
+                                <label class="form-label"><i class="fas fa-dumbbell text-info"></i> Protein (PDV%)</label>
+                                <input type="number" id="pro" class="form-control" value="25">
+                            </div>
+                            <div class="col-sm-6 mb-3">
+                                <label class="form-label"><i class="fas fa-bread-slice text-secondary"></i> Carbs (PDV%)</label>
+                                <input type="number" id="carb" class="form-control" value="50">
+                            </div>
+                            <div class="col-sm-6 mb-3">
+                                <label class="form-label"><i class="fas fa-tint text-primary"></i> Total Fat (PDV%)</label>
+                                <input type="number" id="fat" class="form-control" value="15">
+                            </div>
+                            <div class="col-sm-6 mb-3">
+                                <label class="form-label"><i class="fas fa-cubes text-secondary"></i> Sugar (PDV%)</label>
+                                <input type="number" id="sugar" class="form-control" value="10">
+                            </div>
+                            <div class="col-sm-6 mb-3">
+                                <label class="form-label"><i class="fas fa-flask text-muted"></i> Sodium (PDV%)</label>
+                                <input type="number" id="sod" class="form-control" value="10">
+                            </div>
+                            <div class="col-sm-6 mb-3">
+                                <label class="form-label"><i class="fas fa-clock text-dark"></i> Cook Time (min)</label>
+                                <input type="number" id="min" class="form-control" value="30">
+                            </div>
+                            <div class="col-sm-6 mb-3">
+                                <label class="form-label"><i class="fas fa-leaf text-success"></i> Vegetarian?</label>
+                                <select id="isVeg" class="form-control">
+                                    <option value="0">Không</option>
+                                    <option value="1">Có</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-6 mb-3">
+                                <label class="form-label"><i class="fas fa-list-ol text-info"></i> N Ingredients</label>
+                                <input type="number" id="nIng" class="form-control" value="5">
+                            </div>
                         </div>
-                        <div class="mb-4">
-                            <label class="form-label"><i class="fas fa-tint text-primary me-2"></i>Total Fat (PDV%)</label>
-                            <input type="number" id="fat" class="form-control" value="15">
-                        </div>
-                        <div class="mb-4">
-                            <label class="form-label"><i class="fas fa-cubes text-secondary me-2"></i>Sugar (PDV%)</label>
-                            <input type="number" id="sugar" class="form-control" value="10">
-                        </div>
-                        <div class="form-check form-switch mb-4 p-3 rounded" style="background: #f4f9f5; border: 1px solid #e0ede4;">
-                            <input class="form-check-input ms-0 me-3" type="checkbox" id="isVeg" style="width: 2.5em; height: 1.25em; cursor: pointer;">
-                            <label class="form-check-label fw-bold text-success" for="isVeg" style="cursor: pointer;">
-                                <i class="fas fa-leaf me-1"></i> Đây là món ăn chay?
-                            </label>
-                        </div>
-                        <button onclick="checkHealthy()" class="btn-theme">
+                        <button onclick="checkHealthy()" class="btn-theme mt-2">
                             <i class="fas fa-heart me-2"></i> KIỂM TRA BẰNG AI
                         </button>
                     </div>
 
                     <!-- RIGHT -->
-                    <div class="col-md-6">
+                    <div class="col-md-5">
                         <div class="result-box">
                             <div class="result-title">Xác suất lành mạnh</div>
                             <div class="progress w-100 mb-4" style="height: 30px; border-radius: 15px; background: #e8f5e9; box-shadow: inset 0 2px 5px rgba(0,0,0,0.05);">
@@ -62,10 +85,15 @@
 <script>
     function checkHealthy() {
         const input = {
-            Sodium_PDV: parseFloat($('#sod').val()) || 0,
+            Calories: parseFloat($('#cal').val()) || 0,
+            Protein_PDV: parseFloat($('#pro').val()) || 0,
+            Carbs_PDV: parseFloat($('#carb').val()) || 0,
             TotalFat_PDV: parseFloat($('#fat').val()) || 0,
             Sugar_PDV: parseFloat($('#sugar').val()) || 0,
-            IsVegetarian: $('#isVeg').is(':checked') ? 1 : 0
+            Sodium_PDV: parseFloat($('#sod').val()) || 0,
+            Minutes: parseInt($('#min').val()) || 0,
+            IsVegetarian: parseInt($('#isVeg').val()) || 0,
+            N_Ingredients: parseInt($('#nIng').val()) || 0
         };
 
         $.ajax({
