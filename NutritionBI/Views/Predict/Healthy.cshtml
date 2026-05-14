@@ -1,0 +1,101 @@
+﻿@model NutritionBI.Web.Models.MiningInputModel
+
+@{
+    ViewBag.Title = "Healthy Check";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row justify-content-center">
+    <div class="col-lg-10">
+        <div class="glass-card">
+            <div class="bg-danger text-white text-center py-4">
+                <h2 class="fw-bold">
+                    <i class="fas fa-heartbeat"></i>
+                    Đánh giá độ lành mạnh
+                </h2>
+            </div>
+            <div class="card-body p-5">
+                <div class="row align-items-center">
+                    <!-- LEFT -->
+                    <div class="col-md-5 border-end">
+                        <h4 class="text-danger fw-bold mb-4">
+                            Kiểm tra dinh dưỡng
+                        </h4>
+                        <div class="mb-4">
+                            <label class="form-label fw-semibold">Sodium (PDV%)</label>
+                            <input type="number" id="sod" class="form-control" value="10">
+                        </div>
+                        <div class="mb-4">
+                            <label class="form-label fw-semibold">Total Fat (PDV%)</label>
+                            <input type="number" id="fat" class="form-control" value="15">
+                        </div>
+                        <div class="mb-4">
+                            <label class="form-label fw-semibold">Sugar (PDV%)</label>
+                            <input type="number" id="sugar" class="form-control" value="10">
+                        </div>
+                        <div class="form-check form-switch mb-4">
+                            <input class="form-check-input" type="checkbox" id="isVeg">
+                            <label class="form-check-label fw-semibold">Đây là món ăn chay?</label>
+                        </div>
+                        <button onclick="checkHealthy()" class="btn btn-danger btn-custom w-100">
+                            <i class="fas fa-heart"></i> KIỂM TRA AI
+                        </button>
+                    </div>
+
+                    <!-- RIGHT -->
+                    <div class="col-md-7 text-center">
+                        <div class="result-box">
+                            <h5 class="text-muted mb-4">Xác suất lành mạnh</h5>
+                            <div class="progress mb-4" style="height: 40px; border-radius: 20px;">
+                                <div id="hBar" class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" style="width:0%">
+                                    0%
+                                </div>
+                            </div>
+                            <h2 id="resHealthy" class="fw-bold display-6">--</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    function checkHealthy() {
+        const input = {
+            Sodium_PDV: parseFloat($('#sod').val()) || 0,
+            TotalFat_PDV: parseFloat($('#fat').val()) || 0,
+            Sugar_PDV: parseFloat($('#sugar').val()) || 0,
+            IsVegetarian: $('#isVeg').is(':checked') ? 1 : 0
+        };
+
+        $.ajax({
+            url: '@Url.Action("AnalyzeHealthy", "Predict")',
+            type: 'POST',
+            data: JSON.stringify(input),
+            contentType: 'application/json',
+            success: function (res) {
+                if (res.success) {
+                    let prob = (res.data.HealthyProbability * 100).toFixed(1);
+                    $('#hBar').css('width', prob + '%').text(prob + '%');
+
+                    $('#resHealthy').text(res.data.IsHealthy
+                        ? "LÀNH MẠNH ✅"
+                        : "KHÔNG LÀNH MẠNH ❌");
+
+                    if (res.data.IsHealthy) {
+                        $('#hBar').removeClass('bg-secondary bg-danger').addClass('bg-success');
+                    } else {
+                        $('#hBar').removeClass('bg-secondary bg-success').addClass('bg-danger');
+                    }
+                } else {
+                    alert("Lỗi: " + (res.message || "Không xác định"));
+                }
+            },
+            error: function (xhr) {
+                alert("Lỗi kết nối: " + xhr.statusText);
+            }
+        });
+    }
+</script>

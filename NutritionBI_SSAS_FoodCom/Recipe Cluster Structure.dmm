@@ -1,0 +1,474 @@
+﻿<MiningStructure xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="11100238-4145-4480-85b6-de2a8320818c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Recipe Cluster Structure</ID>
+  <Name>Recipe Cluster Structure</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CaseTableName</Name>
+      <Value>dbo_Mining_Recipes</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-7991" scrolltop="-3539" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="19473" y="12528" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="0100000090019e330100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Mining_Recipes" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Mining_Recipes" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-7991</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-3539</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="6496e599-93af-44a8-b18c-4825a5d7c5ba">
+    <DataSourceViewID>Nutrition DW Food Com</DataSourceViewID>
+  </Source>
+  <Columns>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="2142002f-7646-4cf4-a137-9ed6975d0f8a">
+      <ID>Calories</ID>
+      <Name>Calories</Name>
+      <Type>Double</Type>
+      <Content>Continuous</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="13a6ff6c-4a7c-41a2-bba5-42c1f9b1009b">
+          <DataType>Double</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e60a5f22-cb9d-4941-ae95-95a87ba208a8">
+            <TableID>dbo_Mining_Recipes</TableID>
+            <ColumnID>Calories</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="3f4d9bf2-7fd6-41ae-9a89-6625e7e19115">
+      <ID>Carbs G</ID>
+      <Name>Carbs G</Name>
+      <Type>Double</Type>
+      <Content>Continuous</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0b759f59-c3b7-47aa-8945-288535ce8642">
+          <DataType>Double</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="db56fa98-c03f-44db-9861-572787e7f09f">
+            <TableID>dbo_Mining_Recipes</TableID>
+            <ColumnID>Carbs_g</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="72b8b97f-5c02-4e5f-b253-fc4ffb574cb0">
+      <ID>Carbs PDV</ID>
+      <Name>Carbs PDV</Name>
+      <Type>Double</Type>
+      <Content>Continuous</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="245a89ec-fdce-41ff-a2b1-ae7fd2570172">
+          <DataType>Double</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="76970c69-66d4-4830-8447-d5fac63177a3">
+            <TableID>dbo_Mining_Recipes</TableID>
+            <ColumnID>Carbs_PDV</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="0e53ec32-7dda-401c-b6b3-8dbf40ef39c5">
+      <ID>Is Healthy</ID>
+      <Name>Is Healthy</Name>
+      <Type>Long</Type>
+      <Content>Continuous</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f0119675-1ae1-446b-8cd1-5107d6044987">
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="417f889a-edbf-408b-b3df-bd8699d1abe9">
+            <TableID>dbo_Mining_Recipes</TableID>
+            <ColumnID>IsHealthy</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="e97f1283-f9d8-405d-9988-b25d548a8406">
+      <ID>Minutes</ID>
+      <Name>Minutes</Name>
+      <Type>Long</Type>
+      <Content>Continuous</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ba8d3d52-df32-4db7-b309-470cf8608615">
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="158353c9-af11-4de5-8e66-fe88b5eba4b8">
+            <TableID>dbo_Mining_Recipes</TableID>
+            <ColumnID>Minutes</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="95df840a-da0b-4b03-864e-706021b4ef54">
+      <ID>N Ingredients</ID>
+      <Name>N Ingredients</Name>
+      <Type>Long</Type>
+      <Content>Continuous</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f70bc2b9-3775-4e38-a70f-3d841bb9a433">
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0fdfdf57-29cb-440c-8831-84726ecb8a10">
+            <TableID>dbo_Mining_Recipes</TableID>
+            <ColumnID>NIngredients</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="c219cb19-b3be-466a-8a83-79ee77e649ba">
+      <ID>N Steps</ID>
+      <Name>N Steps</Name>
+      <Type>Long</Type>
+      <Content>Continuous</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="59224cbf-0a46-4ac6-9145-8d4f0e4057b6">
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="dff87ec7-50b6-4225-bbb2-aa7a2ff1dd72">
+            <TableID>dbo_Mining_Recipes</TableID>
+            <ColumnID>NSteps</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="78d890ce-f594-4787-9f62-572cc93abca7">
+      <ID>Protein G</ID>
+      <Name>Protein G</Name>
+      <Type>Double</Type>
+      <Content>Continuous</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="09c5759a-8395-4b56-a4b9-76f546cd2a11">
+          <DataType>Double</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="81aea29d-63a8-497d-a905-705d745ab371">
+            <TableID>dbo_Mining_Recipes</TableID>
+            <ColumnID>Protein_g</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="3fdb144b-1ca5-4621-8007-1a7b3266a99c">
+      <ID>Protein PDV</ID>
+      <Name>Protein PDV</Name>
+      <Type>Double</Type>
+      <Content>Continuous</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e26a49fc-6a2c-4f4b-9788-977163eb72a8">
+          <DataType>Double</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3c31129f-83bf-4513-a410-84f48f9c0cd5">
+            <TableID>dbo_Mining_Recipes</TableID>
+            <ColumnID>Protein_PDV</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="a7859620-4566-4547-95c4-db67ecdce870">
+      <ID>Rating Category</ID>
+      <Name>Rating Category</Name>
+      <Type>Text</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a17c8310-9702-4d0f-95be-e9c930ca5a34">
+          <DataType>WChar</DataType>
+          <DataSize>9</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="afd9cc0e-19d2-4c52-8ced-26b89959ab02">
+            <TableID>dbo_Mining_Recipes</TableID>
+            <ColumnID>RatingCategory</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="07661a32-eba2-4c00-a23a-3a4995741ca6">
+      <ID>Recipe ID</ID>
+      <Name>Recipe ID</Name>
+      <IsKey>true</IsKey>
+      <Type>Long</Type>
+      <Content>Key</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e44ba7f8-dda2-4c45-a8f6-d442a521e274">
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="aa7eb036-7561-4b97-8858-9b1b13b18ea8">
+            <TableID>dbo_Mining_Recipes</TableID>
+            <ColumnID>RecipeID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="07b84732-9fe4-479e-9003-af1965cbcb8a">
+      <ID>Recipe Name</ID>
+      <Name>Recipe Name</Name>
+      <Type>Text</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="86074aa6-2420-4413-bd9d-93998724888f">
+          <DataType>WChar</DataType>
+          <DataSize>500</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0929d889-a354-4849-b899-2374970a8d71">
+            <TableID>dbo_Mining_Recipes</TableID>
+            <ColumnID>RecipeName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="b29ff1d6-5e17-410b-aed1-fced6a30dc3e">
+      <ID>Sat Fat PDV</ID>
+      <Name>Sat Fat PDV</Name>
+      <Type>Double</Type>
+      <Content>Continuous</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="efc1d99f-4a32-4752-a798-e236956314d4">
+          <DataType>Double</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="85f37fba-03b6-400e-a134-64fe75e89676">
+            <TableID>dbo_Mining_Recipes</TableID>
+            <ColumnID>SatFat_PDV</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="a0024614-e1ce-4a14-ac99-eae7ac5f24aa">
+      <ID>Sodium PDV</ID>
+      <Name>Sodium PDV</Name>
+      <Type>Double</Type>
+      <Content>Continuous</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ef58579a-7efb-4623-a8d3-39500463d6c0">
+          <DataType>Double</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="340cfd48-f17e-44b2-8f9b-6a08b38e5658">
+            <TableID>dbo_Mining_Recipes</TableID>
+            <ColumnID>Sodium_PDV</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="5e7b54af-bc02-4c56-b56f-c0684559be2e">
+      <ID>Sugar G</ID>
+      <Name>Sugar G</Name>
+      <Type>Double</Type>
+      <Content>Continuous</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="156c133c-9114-4294-9640-6146e557f164">
+          <DataType>Double</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7543827a-781d-4155-bd5d-31d4cce2ab00">
+            <TableID>dbo_Mining_Recipes</TableID>
+            <ColumnID>Sugar_g</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="6d87fca5-2242-4b37-a2e3-e079059782f0">
+      <ID>Sugar PDV</ID>
+      <Name>Sugar PDV</Name>
+      <Type>Double</Type>
+      <Content>Continuous</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f8e96973-07e0-420d-889c-64ea53a1e9d7">
+          <DataType>Double</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3dc0d289-4791-48e7-81b4-f91bd4e17567">
+            <TableID>dbo_Mining_Recipes</TableID>
+            <ColumnID>Sugar_PDV</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="67c33945-553c-4419-8dfb-f693d6a955e9">
+      <ID>Total Fat G</ID>
+      <Name>Total Fat G</Name>
+      <Type>Double</Type>
+      <Content>Continuous</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b4849afb-4388-41e6-b1c1-fff8c53608b9">
+          <DataType>Double</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="21dcb486-706a-4aee-99fa-19eabb6997bf">
+            <TableID>dbo_Mining_Recipes</TableID>
+            <ColumnID>TotalFat_g</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="194becd7-79b9-4083-8ec7-98bc1c96b8d0">
+      <ID>Total Fat PDV</ID>
+      <Name>Total Fat PDV</Name>
+      <Type>Double</Type>
+      <Content>Continuous</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7a3b7acd-ff5a-4f88-a0ba-1129afdb3fb9">
+          <DataType>Double</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a18431ff-d669-4018-a911-f6210c502c38">
+            <TableID>dbo_Mining_Recipes</TableID>
+            <ColumnID>TotalFat_PDV</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+  </Columns>
+  <MiningModels>
+    <MiningModel dwd:design-time-name="647a0c80-ee81-4655-8f48-435fd273ad47">
+      <ID>Recipe Clustering</ID>
+      <Name>Recipe Clustering</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Algorithm>Microsoft_Clustering</Algorithm>
+      <AlgorithmParameters>
+        <AlgorithmParameter>
+          <Name>CLUSTER_COUNT</Name>
+          <Value xsi:type="xsd:int">6</Value>
+        </AlgorithmParameter>
+      </AlgorithmParameters>
+      <Columns>
+        <Column dwd:design-time-name="92763583-737f-4d77-94c1-b130b9d81ff0">
+          <ID>Calories</ID>
+          <Name>Calories</Name>
+          <SourceColumnID>Calories</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="88c876f2-ab11-4bae-8f93-0ef48b561d23">
+          <ID>Carbs G</ID>
+          <Name>Carbs G</Name>
+          <SourceColumnID>Carbs G</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="9bf9f69e-3f3b-4895-b85a-04738821b917">
+          <ID>Carbs PDV</ID>
+          <Name>Carbs PDV</Name>
+          <SourceColumnID>Carbs PDV</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="6a789371-5e82-487f-b7eb-1126d152917f">
+          <ID>Is Healthy</ID>
+          <Name>Is Healthy</Name>
+          <SourceColumnID>Is Healthy</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="a6a4701b-a638-4382-8eab-1df8ce3ac3c0">
+          <ID>Minutes</ID>
+          <Name>Minutes</Name>
+          <SourceColumnID>Minutes</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="1dd932b3-a9e9-4973-9f7b-bca7b7d181eb">
+          <ID>N Ingredients</ID>
+          <Name>N Ingredients</Name>
+          <SourceColumnID>N Ingredients</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="10999e98-bd06-4115-b8f0-addb33b9a120">
+          <ID>N Steps</ID>
+          <Name>N Steps</Name>
+          <SourceColumnID>N Steps</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="8e10c9ab-a069-4829-acf0-23064b2d927a">
+          <ID>Protein G</ID>
+          <Name>Protein G</Name>
+          <SourceColumnID>Protein G</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="fa3979e6-d3db-4043-9aeb-32fb481b68d9">
+          <ID>Protein PDV</ID>
+          <Name>Protein PDV</Name>
+          <SourceColumnID>Protein PDV</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="bafc20de-3f01-42c7-be82-8ee0fd6860a9">
+          <ID>Rating Category</ID>
+          <Name>Rating Category</Name>
+          <SourceColumnID>Rating Category</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="96f2f62e-ec4b-4983-b9c7-5e09dce116c6">
+          <ID>Recipe ID</ID>
+          <Name>Recipe ID</Name>
+          <SourceColumnID>Recipe ID</SourceColumnID>
+          <Usage>Key</Usage>
+        </Column>
+        <Column dwd:design-time-name="66def2d4-44d0-4b3c-80d1-00c5fc649fc9">
+          <ID>Sat Fat PDV</ID>
+          <Name>Sat Fat PDV</Name>
+          <SourceColumnID>Sat Fat PDV</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="5c8e356c-d826-45a3-920a-012065be69b2">
+          <ID>Sodium PDV</ID>
+          <Name>Sodium PDV</Name>
+          <SourceColumnID>Sodium PDV</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="e2d22d58-3083-4613-823a-5f93173d8e17">
+          <ID>Sugar G</ID>
+          <Name>Sugar G</Name>
+          <SourceColumnID>Sugar G</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="f71be3e8-ef50-4caa-86bc-3bb90b0de6a9">
+          <ID>Sugar PDV</ID>
+          <Name>Sugar PDV</Name>
+          <SourceColumnID>Sugar PDV</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="63cff9b8-ea4d-4ba4-8c42-b4239384ec17">
+          <ID>Total Fat G</ID>
+          <Name>Total Fat G</Name>
+          <SourceColumnID>Total Fat G</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="d160eabc-33c1-4914-b4b5-bcdaa5f721e6">
+          <ID>Total Fat PDV</ID>
+          <Name>Total Fat PDV</Name>
+          <SourceColumnID>Total Fat PDV</SourceColumnID>
+        </Column>
+      </Columns>
+    </MiningModel>
+  </MiningModels>
+</MiningStructure>

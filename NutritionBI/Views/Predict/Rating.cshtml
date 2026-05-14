@@ -1,0 +1,92 @@
+﻿@model NutritionBI.Web.Models.MiningInputModel
+
+@{
+    ViewBag.Title = "Rating Prediction";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row justify-content-center">
+    <div class="col-lg-10">
+        <div class="glass-card">
+            <div class="bg-primary text-white text-center py-4">
+                <h2 class="fw-bold">
+                    <i class="fas fa-star"></i>
+                    Dự đoán Xếp hạng món ăn
+                </h2>
+            </div>
+            <div class="card-body p-5">
+                <div class="row align-items-center">
+                    <!-- LEFT -->
+                    <div class="col-md-5 border-end">
+                        <h4 class="text-primary fw-bold mb-4">
+                            Thông số đầu vào
+                        </h4>
+                        <div class="mb-4">
+                            <label class="form-label fw-semibold">Calories (kcal)</label>
+                            <input type="number" id="cal" class="form-control" value="450">
+                        </div>
+                        <div class="mb-4">
+                            <label class="form-label fw-semibold">Protein (PDV%)</label>
+                            <input type="number" id="pro" class="form-control" value="25">
+                        </div>
+                        <div class="mb-4">
+                            <label class="form-label fw-semibold">Total Fat (PDV%)</label>
+                            <input type="number" id="fat" class="form-control" value="15">
+                        </div>
+                        <div class="mb-4">
+                            <label class="form-label fw-semibold">Sugar (PDV%)</label>
+                            <input type="number" id="sugar" class="form-control" value="10">
+                        </div>
+                        <button onclick="predictRating()" class="btn btn-primary btn-custom w-100">
+                            <i class="fas fa-chart-line"></i> PHÂN TÍCH AI
+                        </button>
+                    </div>
+
+                    <!-- RIGHT -->
+                    <div class="col-md-7 text-center">
+                        <div class="result-box">
+                            <h5 class="text-muted">Kết quả dự đoán</h5>
+                            <h1 id="resRating" class="display-1 fw-bold text-primary my-4">--</h1>
+                            <div id="resConf" class="badge bg-light text-dark border p-3 fs-6">
+                                Đang chờ dữ liệu...
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    function predictRating() {
+        const input = {
+            Calories: parseFloat($('#cal').val()) || 0,
+            Protein_PDV: parseFloat($('#pro').val()) || 0,
+            TotalFat_PDV: parseFloat($('#fat').val()) || 0,
+            Sugar_PDV: parseFloat($('#sugar').val()) || 0
+        };
+
+        $.ajax({
+            url: '@Url.Action("AnalyzeRating", "Predict")',
+            type: 'POST',
+            data: JSON.stringify(input),
+            contentType: 'application/json',
+            success: function (res) {
+                if (res.success && res.data) {
+                    $('#resRating').fadeOut(200, function () {
+                        $(this).text(res.data.PredictedRating || '--').fadeIn();
+                    });
+                    $('#resConf').text("Độ tin cậy: " + (res.data.DtConfidence * 100).toFixed(1) + "%");
+                } else {
+                    alert("Có lỗi: " + (res.message || "Không có dữ liệu trả về"));
+                }
+            },
+            error: function (xhr) {
+                alert("Lỗi kết nối Server!");
+                console.error(xhr.responseText);
+            }
+        });
+    }
+</script>

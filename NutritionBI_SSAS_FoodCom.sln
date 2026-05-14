@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.36631.11
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "NutritionBI_SSAS_FoodCom", "NutritionBI_SSAS_FoodCom\NutritionBI_SSAS_FoodCom.dwproj", "{C3ED6D8A-DEF2-47C0-90D4-4CD28DC6A3B3}"
+EndProject
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "NutritionFoodETL", "NutritionFoodETL\NutritionFoodETL.dtproj", "{D04DAA8D-51BC-4AF2-9D6A-AA0CEC871ACA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NutritionBI", "NutritionBI\NutritionBI.csproj", "{677E1D62-BD39-4532-9AEE-9F1868C057A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Development|Any CPU = Development|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3ED6D8A-DEF2-47C0-90D4-4CD28DC6A3B3}.Debug|Any CPU.ActiveCfg = Development
+		{C3ED6D8A-DEF2-47C0-90D4-4CD28DC6A3B3}.Debug|Any CPU.Build.0 = Development
+		{C3ED6D8A-DEF2-47C0-90D4-4CD28DC6A3B3}.Debug|Any CPU.Deploy.0 = Development
+		{C3ED6D8A-DEF2-47C0-90D4-4CD28DC6A3B3}.Development|Any CPU.ActiveCfg = Development
+		{C3ED6D8A-DEF2-47C0-90D4-4CD28DC6A3B3}.Development|Any CPU.Build.0 = Development
+		{C3ED6D8A-DEF2-47C0-90D4-4CD28DC6A3B3}.Development|Any CPU.Deploy.0 = Development
+		{C3ED6D8A-DEF2-47C0-90D4-4CD28DC6A3B3}.Release|Any CPU.ActiveCfg = Development
+		{C3ED6D8A-DEF2-47C0-90D4-4CD28DC6A3B3}.Release|Any CPU.Build.0 = Development
+		{C3ED6D8A-DEF2-47C0-90D4-4CD28DC6A3B3}.Release|Any CPU.Deploy.0 = Development
+		{D04DAA8D-51BC-4AF2-9D6A-AA0CEC871ACA}.Debug|Any CPU.ActiveCfg = Development
+		{D04DAA8D-51BC-4AF2-9D6A-AA0CEC871ACA}.Debug|Any CPU.Build.0 = Development
+		{D04DAA8D-51BC-4AF2-9D6A-AA0CEC871ACA}.Development|Any CPU.ActiveCfg = Development
+		{D04DAA8D-51BC-4AF2-9D6A-AA0CEC871ACA}.Development|Any CPU.Build.0 = Development
+		{D04DAA8D-51BC-4AF2-9D6A-AA0CEC871ACA}.Release|Any CPU.ActiveCfg = Development
+		{D04DAA8D-51BC-4AF2-9D6A-AA0CEC871ACA}.Release|Any CPU.Build.0 = Development
+		{677E1D62-BD39-4532-9AEE-9F1868C057A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{677E1D62-BD39-4532-9AEE-9F1868C057A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{677E1D62-BD39-4532-9AEE-9F1868C057A7}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{677E1D62-BD39-4532-9AEE-9F1868C057A7}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{677E1D62-BD39-4532-9AEE-9F1868C057A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{677E1D62-BD39-4532-9AEE-9F1868C057A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7039A7CA-A58B-4C88-B48D-ACC10D1CC96D}
+	EndGlobalSection
+EndGlobal
